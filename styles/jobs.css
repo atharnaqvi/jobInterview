@@ -1,0 +1,19 @@
+.it-title-img{
+	background-image: url("../images/IT-Category-Top.jpg");
+}
+
+main{
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+    margin: 1rem 3rem;
+
+   
+} 
+
+.col1 .col2 .col3{
+    padding: 2rem;
+    margin: 2rem;
+}
+main .col1 img{
+       width: 100%;
+    }

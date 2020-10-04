@@ -29,25 +29,50 @@
 				<li class="dropdown">
 					<a href="#">Services</a>
 					<ul class="menu-area">
-						<ul>
-							<h1>Job Interview</h1>
-							<img src="images/logo.jpg" alt="Job Interview">
+						<ul class="image-menu-area">
+							<!-- <h1>Job Interview</h1> -->
+							<img src="images/job-interview1.jpg" alt="Job Interview">
 						</ul>
 						<ul>
-							<h4>We can help you with...</h4>
-							<li><a href="mockInterview.html">Mock Interview</a></li>
-							<li><a href="#" id="cv-li">Resume Review</a></li>
-							<li><a href="#">Job Search Strategy</a></li>
-							<li><a href="#">Career Advice</a></li>
-							<li><a href="#">More...</a></li>
+							<h4>Select Industry</h4>
+							<li><a href="#">Construction  </a></li>
+							<li><a href="#">Administration </a></li>
+							<li><a href="#">Advertising </a></li>
+							<li><a href="#">Banking </a></li>
+							<li><a href="#">Call Centre </a></li>
 						</ul>
 						<ul class="cv">
-							<h4>Industry</h4>
-							<li><a href="#">Information Technology</a></li>
-							<li><a href="#">Marketing</a></li>
-							<li><a href="#">Human Resource</a></li>
 							<li><a href="#">Finance</a></li>
-							<li><a href="#">More...</a></li>
+							<li><a href="#">Creative </a></li>
+							<li><a href="#">Digital </a></li>
+							<li><a href="#">Education </a></li>
+							<li><a href="#">Engineering </a></li>
+							<li><a href="#">Finance </a></li>
+						</ul>
+						<ul id="interview">
+							<li><a href="#">Healthcare  </a></li>
+							<li><a href="#">Hospitality </a></li>
+							<li><a href="#">HR </a></li>
+							<li><a href="#">Insurance </a></li>
+							<li><a href="it.html">IT </a></li>
+							<li><a href="#">Legal </a></li>
+						</ul>
+						<ul id="interview">
+							<li><a href="#">Logistics </a></li>
+							<li><a href="#">Management</a></li>
+							<li><a href="#">Marketing  </a></li>
+							<li><a href="#">Manufacturing </a></li>
+							<li><a href="#">Media </a></li>
+							<li><a href="#">Nursing </a></li>
+							<li><a href="#">Property </a></li>
+						</ul>
+						<ul id="interview">
+							<li><a href="#">Sales </a></li>
+							<li><a href="#">Secretarial </a></li>
+							<li><a href="#">Senior Appointments </a></li>
+							<li><a href="#">Telecoms </a></li>
+							<li><a href="#">Travel and Tourism  </a></li>
+							<li><a href="#">Retail </a></li>							
 						</ul>
 						<ul id="interview">
 							<h4>How we work?</h4>
@@ -57,6 +82,7 @@
 							<li><a href="#">Who are our Interviewers?</a></li>
 							<li><a href="#">Why not talk to us?</a></li>
 						</ul>
+						
 					</ul>
 				</li>
 				<li><a href="#">Employer</a></li>
@@ -302,25 +328,43 @@
 <div class="container_3" >
     <div id="webForm-btn">
         <img src="images/logo/computer.png">
-        <h1>Contact us via web form</h1>
+        <h1>Contact us via web</h1>
         <p>
             Fill in online form to reach us. One of our representative will contact you as soon as possible.
         </p>
     </div>
     <div id="email-btn">
-        <img src="images/logo/email.png">
-        <h1>Write us an email</h1>
-        <p>
-            Send an email and a Job-Interview representative will reply as soon as possible.
-        </p>
+        <a href="mailto:contactme@job-interview.co.uk?Subject=Replace%20this%20text%20with%20appropriate%20subject:" target="_blank">
+            <img src="images/logo/email.png">
+            <h1>Write us an email</h1>
+            <p>
+                Send email and a Job-Interview.co.uk representative will reply as soon as possible.</a>
+            </p>
+    </a>
     </div>
     <div id="phone-btn">
         <img src="images/logo/call.png">
-        <h1>Reach us by phone</h1>
-        <p>
-            Find contact number if you'd like to speak directly to a Job-interview customer service representative.
-
-        </p>
+        <h1>Talk to us</h1>
+        
+        <div class="phone-text">
+            <img src="images/logo/phone-icon.png" alt="Call">
+            <span> Call us: 01908 000 000</span>
+        </div>
+        <div class="phone-text">
+            <img src="images/logo/whatsapp.png" alt="Call">
+            <span>WhatsApp: 0700 00 00 00</span>
+        </div>
+        
+        <div class="phone-text">
+            <img src="images/logo/skype.png" alt="Call">
+            <span>Skype: job-interview</span>
+        </div>
+        
+    
+        <!-- <div>
+            <img src="images/logo/team.png" alt="Call">
+            Team: team@job-interview.co.uk
+        </div> -->
     </div>
         
 </div>
@@ -359,7 +403,7 @@
     
       </form>
  </div> <!--webform div end -->
-<div id="phone1" class="phone showhidePhone">
+<!-- <div id="phone1" class="phone showhidePhone">
     <div>
         <h1>Applicants</h1>
         <label for="mockInterview">Mock Interview:</label>
@@ -380,7 +424,7 @@
     </div>
 
 
-</div>
+</div> -->
 
 <!-- Page Body ***********************END Here -->
 
@@ -399,8 +443,8 @@
 		</div>
 		<dir class="footer_third">
 			<h1>Need Help?</h1>
-			<a href="#">Terms &amp; Conditions</a>
-			<a href="#">Privacy Policy</a>
+			<a href="terms.html">Terms &amp; Conditions</a>
+			<a href="privacy.html">Privacy Policy</a>
 			<a href="#">Talk to an advisor</a>
 		</dir>
 		<dir class="footer_third">
@@ -411,7 +455,7 @@
 		</dir>
 		<dir class="footer_third">
 			<h1>Why us?</h1>
-			<a href="#">Terms &amp; Conditions</a>
+			<a href="about.html">About us</a>
 			<a href="#">Privacy Policy</a>
 			<a href="#">Talk to an advisor</a>
 		</dir>

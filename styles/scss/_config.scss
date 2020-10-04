@@ -1,0 +1,20 @@
+$col-white: #fff;
+$col-LightGray: rgb(177, 177, 177);
+$col-Darkgray: rgb(68, 66, 66);
+$col-black: #000;
+$col-orange: rgb(185, 130, 0);
+$col-yellow: yellow;
+$primary-color: #272727;
+$secondary-color:#ff652f;
+$col-blue: rgb(8, 8, 221);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+@mixin transition-ease{
+    transition: all 0.5s ease-in-out;
+}
