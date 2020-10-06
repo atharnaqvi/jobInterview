@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1024px){
 
 .menu-btn{
     position: absolute;
@@ -121,24 +121,25 @@
         transition-delay: ($i * 0.1s) + 0.15s;
     }
 }
+nav ul.menu-area {
+    display: none;
+}
 
 }
 
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 1025px){
     .wrapper{
         display: flex;
         flex-flow: row nowrap;
         flex-grow: 1;
-    
     }
     
     nav{
         position: absolute;
-        background: #262626;
-        font-size: 16px;
+        background: $col-Darkgray;
+        font-size: 1rem;
         margin: 0 auto;
         width: 100%;
-        /*opacity: 90%;*/
         flex-basis: atuo;
     } 
     
@@ -148,53 +149,31 @@
         display: table;
     }
     
-    .logo{
-        color: white;
-        padding-left: 80px;
-        padding-right: 80%;
-        line-height: 50px;
-        position: absolute;
-        font-size: 32px;
-        cursor: pointer;
-        float: left;
-        display: block;
-    }
-    
-    .logo > a{
-        text-decoration: none;
-        cursor: pointer;
-    }
-    
     nav > ul{
         position: relative;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
         display: flex;
         justify-content: center;
-        /*width: 1170px;*/
-        /*display: inline-block;*/
         margin: 0 auto;
         padding: 0;
         width: 100%;
+        z-index: 2;
     }
     
     nav a{
         display: block;
-        color: #fff;
+        color: $col-white;
         text-decoration: none;
         text-transform: uppercase;
     }
     
     nav ul li{
-        color: #fff;
+        color: $col-white;
         list-style: none;
         transition: 0.5s;
         }
     
     nav > ul > li > a{
-        padding: 15px 25px;
+        padding: 1rem 25px;
     }
     
     nav ul > li.dropdown > a:after{
@@ -203,27 +182,28 @@
         content: '';
         margin-left: 10px;
         margin-top: 8px;
+        @include transition-ease;
     }
     
     nav > ul > li:hover{
-        background: #668fc5;
+        background: $col-skyBlue;
     }
     
     
     
     
     nav ul ul ul h1{
-        color: #0066ff;
-        font-size: 38px;
+        color: $col-blue;
+        font-size: 1.3rem;
     }
     
     nav ul.menu-area{
         padding: 40px 40px 0 40px;
-        background: #fff;
+        background: $col-white;
         text-align: left;
         border-top: 5px solid #164c82;
         box-shadow: 0 5px 10px rgba(0,0,0,0.6);
-        z-index: 1;
+        // z-index: 0;
         position: absolute;
         display: grid;
         grid-template: repeat(2, 200px) / repeat(4, 1fr);	
@@ -232,7 +212,7 @@
         height: 575px;
         top:-9999px;
         left: 0;
-        transition: top .3s;
+        // @include transition-ease;
         transition-timing-function: linear;
         opacity: 0;
         border-bottom-right-radius: 30px;
@@ -260,11 +240,11 @@
     nav ul.menu-area ul{
         width: 25%;
         margin-bottom: 40px;
-        color: #262626;
+        color: $col-Darkgray;
     }
     
     nav ul.menu-area h4{
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
         text-transform: uppercase;
     }
     
@@ -273,33 +253,28 @@
     }
     
     nav ul.menu-area ul li a{
-        color: #000;
+        color: $col-black;
         margin-top: 10px;
         text-transform: none;
     }
     
     nav ul.menu-area ul li a:hover{
-        color: #164c82;
+        color: $col-skyBlue;
         text-decoration: none;
-        background-color: #f0f0f0
+        // background-color: $col-LightGray;
     }
     
-    /* .cv, #interview{
-        display: none;
-    }*/
-    
-    .titleImageDiv{
+   .titleImageDiv{
         display: table;
         background-color: #fff;
         color: #fff;
-        /*opacity: 10%;*/
     }
     
     .titleImageH1{
         display: flex;
         margin-top: -600px;
-        font-size: 48px;
-        color: #fff;
+        font-size: 3rem;
+        color: $col-white;
         margin-left: 300px;
         line-height: 80px;
         text-shadow: 0 0 10px hsla(120, 100%, 25%, 0.5),
@@ -314,16 +289,14 @@
         display: flex;
         /*margin-top: -400px;*/
         font-size: 20px;
-        color: #fff;
+        color: $col-white;
         margin-left: 300px;
         line-height: 28px;
         width: 600px;
         letter-spacing: .1em;
-        background-color: yellow;
+        background-color: $col-yellow;
     }
-    
-    
-    
+
     .services{
         display: flex;
         flex-wrap: wrap;
@@ -334,7 +307,7 @@
     
     .services h2{
         padding-top: 75px;
-        font-size: 48px;
+        font-size: 3rem;
     }
     
     .services .image-services{
@@ -362,8 +335,16 @@
     .toggle-button .bar{
         width: 100%;
         height: 3px;
-        background-color: white;
+        background-color: $col-white;
         border-radius: 10px;
     }
     
+}
+
+.home {
+   color: $col-yellow;
+   font-weight: 1000;
+   background: transparent;
+   letter-spacing: 1px;
+
 }

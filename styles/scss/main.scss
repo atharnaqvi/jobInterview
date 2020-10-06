@@ -1,10 +1,11 @@
 @import 'config';
 @import 'home';
 @import 'menu';
+@import 'footer';
 
 body {
-    color: $col-white;
-    background: $primary-color;
+    color: black;
+    background: white;
     height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
@@ -23,7 +24,7 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
-    padding: 1rem;
+    // padding: 1rem;
 }
 
 main {
@@ -48,15 +49,7 @@ main {
 
 }
 
-footer {
-    font-size: 1rem;
-    position: fixed;
-    bottom: 0.4rem;
-    right: 1rem;
-    text-align: right;
-    padding: 1rem;
-    color: $col-white;
-}
+
 
 
 

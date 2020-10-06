@@ -265,19 +265,25 @@ nav ul.menu-area ul li a:hover{
 /************************************Flexbox*************************/
 
  .titleContainer{
-	width: 100%;
-	background-image: url("../images/img-home.jpg");
+	width: 100vw;
+	background: url("../images/img-home.jpg") no-repeat center;
 	height: 650px;
 	background-color: #cccccc;
 	display: flex;
-	margin-top: 50px;
+	margin-top: 0;
 	flex-flow: column wrap;
 }
 
 
 
 .titleContainerAbout{
-	background-image: url("../images/about-us.jpg");
+	background: url("../images/about-us.jpg") no-repeat center;
+	height: 650px;
+	background-color: #cccccc;
+	display: flex;
+	margin-top: 0;
+	flex-flow: column wrap;
+	width: 100vw;
 }
 
 .titleItems{
