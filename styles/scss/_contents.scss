@@ -1,65 +1,46 @@
-
-
-/***********************************IT.html**************************/
-
-/* #AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam,  #Secuirty, #SEO,  #SoftwareDev, #Testing,  #WebDev, #ITform  {
+#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam,  #Secuirty, #SEO,  #SoftwareDev, #Testing,  #WebDev, #ITform  {
 	display: none;
-} */
+}
 
-
-
-
-
-/***********************************IT.html*****END HERE*********************/
-
-/************************************Flexbox*************************/
-
- 
-
-.section1{								/*it.php*/
+.section1{								
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
 	margin: 0px auto;
 	justify-content: space-around;
-	/*padding: 10px 0;*/
-	/*background-color: #0297A5;*/
-	/*color: white*/
 }
 
-.section1Item{							/*it.php*/
+.section1Item{							
 	width: 350px;
 	
 }
 
-.section1Item img{						/*it.php*/
+.section1Item img{						
 	width: 350px;
 	height: auto;
 }
-.section3Item{							/*it.php*/
+.section3Item{							
 	width: 350px;
 	max-height: 700px;
 	
 }
-.section3Item h2{						/*it.php*/
-text-transform: uppercase;
-color: #0297A5;
-font-size: 24px;
-color: #c5c519;
-padding-top: 20px;
+.section3Item h2{						
+	text-transform: uppercase;
+	color: #0297A5;
+	font-size: 24px;
+	color: #c5c519;
+	padding-top: 20px;
 
 }
 
-.section1Item a.links{					/*it.php*/
+.section1Item a.links{					
 	font-style: italic;
 	font-size: 14px;
-	
-	/*color: white;*/
 	text-decoration: none;
 	padding: 30px 0px 30px 0px;
 	line-height: 20px;
 }
-.section1Item h2{						/*it.php*/
+.section1Item h2{						
 	text-transform: uppercase;
 	color: #0297A5;
 	font-size: 24px;
@@ -67,18 +48,13 @@ padding-top: 20px;
 	padding-top: 20px;
 }
 
-.section1Item li{						/*it.php*/
+.section1Item li{						
 	text-decoration: none;
 	padding: 10px 2px 0px 10px;
 	list-style: none;
 	width: 325px;
 }
 
-
-
-
-
-/************************Media View Control***********************/
 @media only screen and (max-width: 400px){
 	.toggle-button{
 		display: flex;
@@ -131,14 +107,7 @@ padding-top: 20px;
 		display: flex;
 		justify-content: center;
 	}
-/*	nav > ul li.active{
-		display: flex;
-	}*/
 }
-
-
-
-
 
 @media screen and (min-width: 400px) and (max-width: 1100px){
 	nav .logo{
@@ -151,5 +120,3 @@ padding-top: 20px;
 		font-size: 18px;
 	}
 }
-
-

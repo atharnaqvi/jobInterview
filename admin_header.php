@@ -30,13 +30,13 @@
 <nav class="nav wrapper">
 	<ul class="menu-nav">
     	<li class="menu-nav__item active">
-            <a href="index.php" class="menu-nav__link">
+            <a href="signin.php" class="menu-nav__link">
     			<span class="home"> Job Interview</class>
             </a>
         </li>
 	    <li class="menu-nav__item dropdown">
 			<a href="#"  class="menu-nav__link">
-                Services
+                Admin
             </a>
 	<ul class="menu-area">
 	    <ul class="image-menu-area">
@@ -44,8 +44,8 @@
 						</ul>
 						<ul>
 							<h4>Select Industry</h4>
-							<li><a href="#">Construction  </a></li>
-							<li><a href="#">Administration </a></li>
+							<li><a href="AllMessages.php">All Messages  </a></li>
+							<li><a href="AllUsers.php">All Users </a></li>
 							<li><a href="#">Advertising </a></li>
 							<li><a href="#">Banking </a></li>
 							<li><a href="#">Call Centre </a></li>
@@ -103,6 +103,23 @@
                     <a href="contact.php" class="menu-nav__link">
                         Contact
                     </a>
+                </li>
+                <li class="menu-nav__item">
+                     <?php 
+                        if(isset($_SESSION['userId'])){
+                            echo '<form action="includes/logout.inc.php" method="post">
+                                <button type="submit" name= "logout-submit">Logout</button>
+                            </form>';
+                        }
+                        else {
+                            echo '<form action="includes/login.inc.php" method="post">
+                                    <input type="text" name="mailuid" placeholder="E-mail/Username">
+                                    <input type="password" name="pwd" placeholder="Password">
+                                    <button type="submit" name= "login-submit">Login</button>
+                                </form>
+                                <a href="signup.php" class="link">Signup</a>';
+                            }
+                     ?>
                 </li>
 			</ul>
 		<!-- </div> -->

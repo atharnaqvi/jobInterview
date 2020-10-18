@@ -1,17 +1,7 @@
-$col-white: #fff;
-$col-LightGray: rgb(177, 177, 177);
-$col-Darkgray: rgb(68, 66, 66);
-$col-black: #000;
-$col-orange: rgb(185, 130, 0);
-$col-yellow: yellow;
-$primary-color: #272727;
-$secondary-color:#ff652f;
-$col-blue: rgb(8, 8, 221);
-$col-skyBlue: #668fc5;
 
-$font-size-small: 1rem;
-$font-size-medium: 2rem;
-$font-size-large: 3rem;
+/*Title larg image*/
+
+
 
 *{
     box-sizing: border-box;
@@ -24,3 +14,38 @@ $font-size-large: 3rem;
     transition: all 0.5s ease-in-out;
 }
 
+
+// $background-img:(
+//     "index": url("../images/img-home.jpg") no-repeat center,
+//     "aboutus": url("../images/about-us.jpg") no-repeat center,
+//     "itPage": url("../images/img-home.jpg") no-repeat center
+// );
+
+// @use "sass:map";
+// $index: url("../images/img-home.jpg") no-repeat center;
+// $aboutus: url("../images/about-us.jpg") no-repeat center;
+// $itPage: url("../images/img-home.jpg") no-repeat center;
+
+
+// @mixin titleImage($property, $bg-img-url){
+//     width: 100vw;
+// 	// #{$property}: $bg-img-url;
+// 	height: 650px;
+// 	// background-color: $chinese-silver;
+// 	display: flex;
+// 	margin-top: 0;
+// 	flex-flow: column wrap;
+// }
+
+// .index-title {
+//     @include titleImage;
+//     background: url("../images/img-home.jpg") no-repeat center;
+// }
+
+// .about-title {
+//     @include titleImage(background, $aboutus);
+// }
+
+// .it-title {
+//     @include titleImage(background, $itPage);
+// }

@@ -149,26 +149,87 @@
 	flex-flow: row wrap;
 	width: 90%;
 	margin: 20px auto;
-	justify-content: space-evenly;
-	/* min-height: 450px; */
+	justify-content: center;
+    /* min-height: 450px; */
+    
+    
+    .webFormNew{
+        display: block;
+        background: $chinese-silver;
+        width: 550px;
+        margin-right: 10px;
+        padding: 5px 10px;
+        align-items: stretch;
+        border-radius: 5px;
+        flex-grow: 0;
+        cursor: auto;
+        
+
+        form{
+            width: 100vw;
+            line-height: 30px;
+            
+            input{
+                width: 530px;
+                height: 30px;
+                border: none;
+            }
+
+            .form-service-feild{
+                width:530px;
+            }
+
+            .message-form {
+                width: 530px;
+                
+            }
+            .submit {
+                background: $col-submit;
+                color: $col-white;
+                width: 530px;
+                border-radius: 5px;
+                font-size: map-get($font-size, lrg);
+                padding: 3px auto;
+                line-height: 30px;
+                height: 40px;
+                
+
+                &:hover{
+                    color: $col-yellow;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
 }
+
+
+
 
 .container_3 div{
 	display: block;
-	background: whitesmoke;
-	width: 25%;
+	background: $chinese-silver;
+    width: 25%;
+    
 	cursor: pointer;
 }
-
-.container_3 div:hover{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
-	transition: 1s;
-	border: none;
-	background: #FFEEEE;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border-radius: 10px;
+.formH2{
+    text-align: center;
+    background-color: $col-blue;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 5px;
 }
+// .container_3 div:hover{
+// 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+// 	transition: 1s;
+// 	border: none;
+// 	background: #FFEEEE;  /* fallback for old browsers */
+// 	background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+// 	background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// 	border-radius: 10px;
+// }
 
 .container_3 div img{
 		display: block;
@@ -196,7 +257,9 @@
 }
 
 .container_3 #phone-btn{
-	cursor: default;
+    cursor: default;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .container_3 #phone-btn .phone-text{

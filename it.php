@@ -1,119 +1,42 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Job Interview - Home</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/page-contents.css">
-	<!-- <link rel="stylesheet" type="text/css" href="styles/footer/css/style.css">
-	<link rel="stylesheet" type="text/css" href="styles/footer/css/font-awesome.min.css"> -->
-	<link rel="stylesheet" type="text/css" href="styles/jobs.css">
-	<link rel="stylesheet" href="dist/css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<!-- Nav bar ---- to be coppied on all the pages ********* start here -->
-	<div class="menu-btn">
-        <span class="menu-btn__burger"></span>
-    </div>
-		<nav class="nav wrapper">
-			<ul class="menu-nav">
-				
-				<li class="menu-nav__item active">
-					<a href="index.html" class="menu-nav__link">
-						<span class="home"> Job Interview</class>
-                    </a>
-                </li>
-				<li class="menu-nav__item dropdown">
-					<a href="#"  class="menu-nav__link">
-                        Services
-                    </a>
-					<ul class="menu-area">
-						<ul class="image-menu-area">
-							<!-- <h1>Job Interview</h1> -->
-							<img src="images/job-interview1.jpg" alt="Job Interview">
-						</ul>
-						<ul>
-							<h4>Select Industry</h4>
-							<li><a href="#">Construction  </a></li>
-							<li><a href="#">Administration </a></li>
-							<li><a href="#">Advertising </a></li>
-							<li><a href="#">Banking </a></li>
-							<li><a href="#">Call Centre </a></li>
-						</ul>
-						<ul class="cv">
-							<li><a href="#">Finance</a></li>
-							<li><a href="#">Creative </a></li>
-							<li><a href="#">Digital </a></li>
-							<li><a href="#">Education </a></li>
-							<li><a href="#">Engineering </a></li>
-							<li><a href="#">Finance </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Healthcare  </a></li>
-							<li><a href="#">Hospitality </a></li>
-							<li><a href="#">HR </a></li>
-							<li><a href="#">Insurance </a></li>
-							<li><a href="it.html">IT </a></li>
-							<li><a href="#">Legal </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Logistics </a></li>
-							<li><a href="#">Management</a></li>
-							<li><a href="#">Marketing  </a></li>
-							<li><a href="#">Manufacturing </a></li>
-							<li><a href="#">Media </a></li>
-							<li><a href="#">Nursing </a></li>
-							<li><a href="#">Property </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Sales </a></li>
-							<li><a href="#">Secretarial </a></li>
-							<li><a href="#">Senior Appointments </a></li>
-							<li><a href="#">Telecoms </a></li>
-							<li><a href="#">Travel and Tourism  </a></li>
-							<li><a href="#">Retail </a></li>							
-						</ul>
-						<ul id="interview">
-							<h4>How we work?</h4>
-							<li><a href="#">Process Map</a></li>
-							<li><a href="#">What we do and what we don't</a></li>
-							<li><a href="#">Why us?</a></li>
-							<li><a href="#">Who are our Interviewers?</a></li>
-							<li><a href="#">Why not talk to us?</a></li>
-						</ul>
-						
-					</ul>
-				</li>
-				<li class="menu-nav__item">
-                    <a href="#" class="menu-nav__link">
-                        Employer
-                    </a>
-                </li>
-				<li class="menu-nav__item">
-                    <a href="contact.html" class="menu-nav__link">
-                        Contact
-                    </a>
-                </li>
-			</ul>
-		<!-- </div> -->
-		</nav>
-	</div>
-
-
-<!-- Nav bar ---- to be coppied on all the pages ********* END here -->
+<?php
+    require "header.php"
+?>
 	
 <!-- ******************************************************************************************************************* -->
 
 	<!-- Page Body ***********************Start Here -->
 
-	<div class="titleContainer it-title-img">
+	<div class="titleContainer it">
+	<!-- <div class="index-title"> -->
+		<div class="outer">	
+			<h1>I am expert in, &nbsp; 
+                <div class="inner">
+                    <span>
+                        <a href="#">Software Development</a><br>
+                        <a href="#">Web Development</a><br>
+                        <a href="#">Databases</a><br>
+                        <a href="#">Not sure!!!</a><br>
+                    </span>        
+                </div>
+                
+            </h1>
+        </div>
+
+        <div class="titleItems">	
+			<p class="titleP">Interviews are taken by professional interviewers from industry. Interviews will be taken to accommodate the job you are applying for. A detailed feedback will be given with chances of your hiring and suggestion for further improvement.</p>
+			<button class="titleBtn"><a href="#lets_start">Get Started</a></button>
+		</div>
+      
+    </div>
+
+
+	<!-- <div class="titleContainer it">
 		<div class="titleItems">	
 			<h1 class="titleH1">Mock Interview</h1>
 			<p class="titleP">Interviews are taken by professional interviewers from industry. Interviews will be taken to accommodate the job you are applying for. A detailed feedback will be given with chances of your hiring and suggestion for further improvement.</p>
-			<button class="titleBtn">Get Started</button>
+			<button class="titleBtn"><a href="#lets_start">Get Started</a></button>
 		</div>
-	</div>
+	</div> -->
 	<div class="section1">
 		<div class="section1Item">
 			<!-- <h2>&nbsp;</h2> -->
@@ -127,6 +50,7 @@
 
 			<br>
 		</div>
+		<a id="lets_start"></a>
 		<div class="section1Item">
 			<h2>Who we are not?</h2>
 			<!-- <a href="#" class="links">What's included</a> -->
@@ -405,39 +329,8 @@
 <!-- ******************************************************************************************************************* -->
 
 
-<!-- FOOTER ---- to be coppied on all the pages ********* Start here -->
-
-
 <!--********************************** F O O T E R ************************************-->
 
-<div class="footer">
-	<div class="inner-footer">
-		<div  class="footer_third">
-			<h1>JobInterview.co.uk</h1>
-		</div>
-		<dir class="footer_third">
-			<h1>Need Help?</h1>
-			<a href="terms.html">Terms &amp; Conditions</a>
-			<a href="privacy.html">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
-			<h1>Services</h1>
-			<a href="#">Terms &amp; Conditions</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
-			<h1>Why us?</h1>
-			<a href="about.html">About us</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		</div>
-</div>
-<!-- FOOTER ---- to be coppied on all the pages ********* END here -->
-<script src="https://kit.fontawesome.com/fbb511ec76.js" crossorigin="anonymous"></script>
-<script src="scripts/menu.js"></script>
-<script type="text/javascript" src="scripts/main.js"></script>
-</body>
-</html>
+<?php
+    require "footer.php"
+?>

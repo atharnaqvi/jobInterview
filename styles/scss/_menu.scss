@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1024px){
+$col-yellow: yellow;
+$col-blue: blue;
+$col-Darkgray: #666;
+
 
 .menu-btn{
     position: absolute;
@@ -156,7 +160,7 @@ nav ul.menu-area {
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        z-index: 2;
+        z-index: 1;
     }
     
     nav a{
@@ -264,6 +268,19 @@ nav ul.menu-area {
         // background-color: $col-LightGray;
     }
     
+
+
+
+
+
+
+
+
+
+
+
+
+
    .titleImageDiv{
         display: table;
         background-color: #fff;
@@ -348,3 +365,77 @@ nav ul.menu-area {
    letter-spacing: 1px;
 
 }
+
+/************************Media View Control***********************/
+@media only screen and (max-width: 400px){
+	.toggle-button{
+		display: flex;
+	}
+	nav .logo{
+		color: yellow;
+		margin-left: 15px;
+		line-height: 50px;
+		margin-bottom: 10px;
+		display: block;
+		font-size: 24px;
+	}
+
+	nav .logo  a{
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	nav ul.menu-area{
+		display: none;
+	}
+
+	nav > ul{
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	nav > ul li.active{
+		width: 100%;
+		text-align: center;
+		display: none;		
+	}
+
+	nav > ul li a{
+		padding: .5rem 1rem;
+	}
+	.services{
+		/*padding-top: 50px; */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.services h2{
+		font-size: 22px; 
+		display: flex;
+		justify-content: center;
+	}
+/*	nav > ul li.active{
+		display: flex;
+	}*/
+}
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 1100px){
+	nav .logo{
+		display: none;
+}
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1642px){
+	 .logo{
+		font-size: 18px;
+	}
+}
+
+

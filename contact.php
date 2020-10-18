@@ -1,106 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Job Interview - Contact us</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/page-contents.css">
-	<!-- <link rel="stylesheet" type="text/css" href="styles/footer/css/style.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="styles/footer/css/font-awesome.min.css"> -->
-    <link rel="stylesheet" href="dist/css/main.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-	<!-- Nav bar ---- to be coppied on all the pages ********* start here -->
-    <div class="menu-btn">
-        <span class="menu-btn__burger"></span>
-    </div>
-		<nav class="nav wrapper">
-			<ul class="menu-nav">
-				
-				<li class="menu-nav__item active">
-                    <a href="index.html" class="menu-nav__link">
-                        <span class="home"> Job Interview</class>
-                    </a>
-                </li>
-				<li class="menu-nav__item dropdown">
-					<a href="#"  class="menu-nav__link">
-                        Services
-                    </a>
-					<ul class="menu-area">
-						<ul class="image-menu-area">
-							<img src="images/job-interview1.jpg" alt="Job Interview">
-						</ul>
-						<ul>
-							<h4>Select Industry</h4>
-							<li><a href="#">Construction  </a></li>
-							<li><a href="#">Administration </a></li>
-							<li><a href="#">Advertising </a></li>
-							<li><a href="#">Banking </a></li>
-							<li><a href="#">Call Centre </a></li>
-						</ul>
-						<ul class="cv">
-							<li><a href="#">Finance</a></li>
-							<li><a href="#">Creative </a></li>
-							<li><a href="#">Digital </a></li>
-							<li><a href="#">Education </a></li>
-							<li><a href="#">Engineering </a></li>
-							<li><a href="#">Finance </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Healthcare  </a></li>
-							<li><a href="#">Hospitality </a></li>
-							<li><a href="#">HR </a></li>
-							<li><a href="#">Insurance </a></li>
-							<li><a href="it.html">IT </a></li>
-							<li><a href="#">Legal </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Logistics </a></li>
-							<li><a href="#">Management</a></li>
-							<li><a href="#">Marketing  </a></li>
-							<li><a href="#">Manufacturing </a></li>
-							<li><a href="#">Media </a></li>
-							<li><a href="#">Nursing </a></li>
-							<li><a href="#">Property </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Sales </a></li>
-							<li><a href="#">Secretarial </a></li>
-							<li><a href="#">Senior Appointments </a></li>
-							<li><a href="#">Telecoms </a></li>
-							<li><a href="#">Travel and Tourism  </a></li>
-							<li><a href="#">Retail </a></li>							
-						</ul>
-						<ul id="interview">
-							<h4>How we work?</h4>
-							<li><a href="#">Process Map</a></li>
-							<li><a href="#">What we do and what we don't</a></li>
-							<li><a href="#">Why us?</a></li>
-							<li><a href="#">Who are our Interviewers?</a></li>
-							<li><a href="#">Why not talk to us?</a></li>
-						</ul>
-						
-					</ul>
-				</li>
-				<li class="menu-nav__item">
-                    <a href="#" class="menu-nav__link">
-                        Employer
-                    </a>
-                </li>
-				<li class="menu-nav__item">
-                    <a href="contact.html" class="menu-nav__link">
-                        Contact
-                    </a>
-                </li>
-			</ul>
-		<!-- </div> -->
-		</nav>
-	</div>
-
-<!-- Nav bar ---- to be coppied on all the pages ********* END here -->
-	
-<!-- ******************************************************************************************************************* -->
+<?php
+    require "header.php"
+?>
 
 	<!-- Page Body ***********************Start Here -->
 <div class="container_2">
@@ -332,14 +232,53 @@
 
 </div>
 <div class="container_3" >
-    <div id="webForm-btn">
-        <img src="images/logo/computer.png">
+    <!-- <div id="webForm-btn"> -->
+        <!-- <img src="images/logo/computer.png">
         <h1>Contact us via web</h1>
         <p>
             Fill in online form to reach us. One of our representative will contact you as soon as possible.
-        </p>
+        </p> -->
+    <div class="webFormNew">
+        <h2 class="formH2">SEND US AN EMAIL</h2><br>
+        <form action="contactForm.php" method="post">   
+         <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="   Your name.." required>
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="   Your last name.." required>
+        </div>
+        <div>
+            <label for="lname">email</label>
+            <input type="email" id="email" name="mail" placeholder="Your email.." required>
+        </div>
+        <div>
+            <label for="phone">Phone/mobile</label>
+            <input type="text" name="phone" name="phone" placeholder="   Your phone/mobile.." >
+        </div>
+        <div class="form-service-feild">
+        <label for="service">Service</label>
+            <select id="subject" name="subject">
+                <option class="topics">Select topic</option>
+                <option value="MockInterview">Mock Interview</option>
+                <option value="cv">CV Review</option>
+                <option value="mentor">Mentor</option>
+                <option value="partner">Partner with us</option>
+                <option value="work">Work with us</option>
+                <option value="billing">Billing and Payments</option>
+                <option value="complaint">Complaints</option>
+            </select>
+        </div>
+        <div class="message-form">
+        <label for="Message">Message</label>
+        <textarea id="Message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+        </div>
+        <input type="submit" name="submit" value="Submit" class="submit">
+    
+      </form>
     </div>
-    <div id="email-btn">
+    <!-- <div id="email-btn">
         <a href="mailto:contactme@job-interview.co.uk?Subject=Replace%20this%20text%20with%20appropriate%20subject:" target="_blank">
             <img src="images/logo/email.png">
             <h1>Write us an email</h1>
@@ -347,7 +286,7 @@
                 Send email and a Job-Interview.co.uk representative will reply as soon as possible.</a>
             </p>
     </a>
-    </div>
+    </div> -->
     <div id="phone-btn">
         <img src="images/logo/call.png">
         <h1>Talk to us</h1>
@@ -366,48 +305,11 @@
             <span>Skype: job-interview</span>
         </div>
         
-    
-        <!-- <div>
-            <img src="images/logo/team.png" alt="Call">
-            Team: team@job-interview.co.uk
-        </div> -->
-    </div>
+</div>
         
 </div>
 <div id="webForm1" class="webForm showhideWeb">
-    <form action="action_page.php">
-
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-    
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-        
-        <label for="lname">email</label>
-        <input type="email" id="email" name="email" placeholder="Your email.." required>
-
-        <label for="phone">Phone/mobile</label>
-        <input type="text" id="phone" name="phone" placeholder="Your phone/mobile.." >
-
-
-        <label for="service">Service</label>
-        <select id="service-contact" name="service">
-        <option class="topics">Select topic</option>
-          <option value="MockInterview">Mock Interview</option>
-          <option value="cv">CV Review</option>
-          <option value="mentor">Mentor</option>
-          <option value="partner">Partner with us</option>
-          <option value="work">Work with us</option>
-          <option value="billing">Billing and Payments</option>
-          <option value="complaint">Complaints</option>
-        </select>
-    
-        <label for="Message">Message</label>
-        <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px" required></textarea>
-    
-        <input type="submit" value="Submit">
-    
-      </form>
+    <!-- old placement for webform -->
  </div> <!--webform div end -->
 <!-- <div id="phone1" class="phone showhidePhone">
     <div>
@@ -436,40 +338,7 @@
 
 <!-- ******************************************************************************************************************* -->
 
-
-<!-- FOOTER ---- to be coppied on all the pages ********* Start here -->
-
-
 <!--********************************** F O O T E R ************************************-->
-
-<div class="footer">
-	<div class="inner-footer">
-		<div  class="footer_third">
-			<h1>JobInterview.co.uk</h1>
-		</div>
-		<dir class="footer_third">
-			<h1>Need Help?</h1>
-			<a href="terms.html">Terms &amp; Conditions</a>
-			<a href="privacy.html">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
-			<h1>Services</h1>
-			<a href="#">Terms &amp; Conditions</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
-			<h1>Why us?</h1>
-			<a href="about.html">About us</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		</div>
-</div>
-<!-- FOOTER ---- to be coppied on all the pages ********* END here -->
-<script src="https://kit.fontawesome.com/fbb511ec76.js" crossorigin="anonymous"></script>
-<script src="scripts/menu.js"></script>
-<script type="text/javascript" src="scripts/main.js"></script>
-</body>
-</html>
+<?php
+    require "footer.php"
+?>

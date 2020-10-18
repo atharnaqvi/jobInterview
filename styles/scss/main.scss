@@ -1,7 +1,13 @@
-@import 'config';
-@import 'home';
-@import 'menu';
-@import 'footer';
+@import './config';
+@import './variables';
+@import './menu';
+@import './titleContainer';
+@import './contactus';
+@import './contents';
+@import './footer';
+@import './contactPage';
+
+
 
 body {
     color: black;
@@ -50,84 +56,3 @@ main {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// ***********************************ONLY For Learning *****************************************
-// @import './resets';
-// @import './variables';
-
-// @function weight($weight-name){
-//     @return map-get($font-w, $weight-name);
-// }
-
-// @function bg-col($background-col){
-//     @return map-get($background-color, $background-col);
-// }
-// @mixin flexCenter($direction) {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     direction: $direction;
-// }
-
-// @mixin theme($light-theme: false){
-//     @if $light-theme{
-//         background: lighten($b-color, 100%);
-//         color: darken($text-color, 100%);
-//     }
-// }
-
-// @mixin mobile{
-//     @media (max-width: $mobile){
-//         @content;
-//     }
-// }
-
-// body {
-//     background: bg-col( midgray);
-// }
-
-// .main{
-//     width: 80%;
-//     margin: 0 auto;
-//     @include flexCenter(row);
-//     #{&}__paragraph1 {
-//         font-weight: weight(lrg);
-
-//         &:hover{
-//             color: dgray;
-//         }
-//     }
-//     #{&}__paragraph2{
-//         @extend .main__paragraph1;
-
-//         &:hover{
-//             color: midgray;
-//         }
-//     }
-//     @include mobile{
-//         flex-direction: column;
-//     }
-// }
-
-// .light {
-//     @include theme($light-theme: true);
-// }

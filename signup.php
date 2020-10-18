@@ -36,6 +36,14 @@
         <input type="password" name="pwd-repeat" placeholder="Repeat password">
         <button type="submit" name="signup-submit">Signup</button>
 </form>
+<?php 
+    if (isset($_GET["newpwd"])) {
+        if ($_GET["newpwd"] == "passwordupdated"){
+            echo '<p>Your password has been reset!</p>';
+        }
+    }
+?>
+
 
 <a href="reset-password.php">Forgot your password?</a>
 </main>

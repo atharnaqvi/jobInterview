@@ -10,7 +10,7 @@
 
 	<!-- Page Body ***********************Start Here -->
 
-	<div class="titleContainer index">
+	<div class="titleContainer newTest">
 	<!-- <div class="index-title"> -->
 		<div class="outer">	
 			<h1>I want, &nbsp; 
@@ -18,7 +18,7 @@
                     <span>
                         <a href="mockInterview.php">Mock Interview</a><br>
                         <a href="#">Coach/mentor</a><br>
-                        <a href="#">my CV reviwed</a><br>
+                        <a href="#">my CV revied</a><br>
                         <a href="contact.php">Help</a><br>
                     </span>        
                 </div>
@@ -32,6 +32,17 @@
 		</div>
       
     </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
