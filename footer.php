@@ -24,6 +24,12 @@
 			<a href="#">Privacy Policy</a>
 			<a href="#">Talk to an advisor</a>
 		</dir>
+		<dir class="footer_third">
+			<h1>To be deleted</h1>
+			<a href="ContentTemp.php">Content Temp</a>
+			<a href="signin.php">Sign in</a>
+			<a href="AllMessages.php">Messages</a>
+		</dir>
 		</div>
 </div>
 
