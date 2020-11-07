@@ -1,212 +1,187 @@
-// .sub-heading {
-//     color: $col-orange;
-// }
 
-// .btn {
-//     background: $col-skyBlue;
-//     color: $col-white;
-//     padding: 0.6rem 1.3rem;
-//     font-size: 22px;
-//     font-weight: 600;
-//     cursor: pointer; 
-//     margin-top: 20px;
-// }
+@media screen and (max-width: 768px){
+    .top-page-grid{
+        width: 100vw;
+        margin: 0 20px;
+        padding-top: 75px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
 
-// .btn:hover{
-//     color: $col-yellow;
-// }
+    .top-services{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        &__heading{
+            width: 100vw;
+            padding: 20px 0;
+            font-size: 1rem;
 
-// // .pageGrid{
-// //     width: 80%;
-// //     margin: 0 auto;
-// //     // background: gray;
-// // }
+        }
+    }
+    
+}
 
-
-
-// .top-page-grid{
-//     padding-top: 75px;
-//     display: grid;
-//     grid-template-columns: 45% 40%;
-//     margin: 0 200px;
-
-//     .img-3col img{
-//         box-shadow: $box-shadow;
-//         border-bottom-right-radius: 250px;
-//         border-top-left-radius: 235px;
-//         margin: 0 20px;
-//     }
-//     .top-text{
-//         // border-left: 1px solid gray;
-//         padding-left: 20px;
-//     }
-//     .top-text h1{
-//         text-align: center;
-//         font-size: 36px;
-//         font-weight: bold;
-//         color: $col-blue;
-//         padding-bottom: 10px;
-//     }
-//     .top-text p{
-//         line-height: 28px;
-//         font-size: 22px;
-//         text-align: justify;
-//     }
-// }
-
-// @media screen and (max-width: 1500px){
+@media screen and (max-width: 1500px){
    
-//     .top-page-grid{
-//         padding-top: 75px;
-//         display: grid;
-//         grid-template-columns: 1fr 1fr;
-//         margin: 0 50px;
-//     }
-//     .img-3col{
-//         padding-right: 10px;
-//         margin-top: -10px;
+    .top-page-grid{
+        padding-top: 75px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 50px;
+    }
+    .img-3col{
+        padding-right: 10px;
+        margin-top: -10px;
         
-//     }
+    }
     
-// }
+    .top-services{
+        margin: 0 20px;
+        grid-template-areas: 
+            "heading heading"
+            "img";
+        grid-gap: 20px;
+        padding: 20px;
+        &__heading{
+            width: 100vw;
+            padding: 20px 5px 0px 5px;
+            font-size: 1rem;
 
-// @media screen and (max-width: 768px){
-//     .top-page-grid{
-//         width: 100vw;
-//         margin: 0 20px;
-//         padding-top: 75px;
-//         display: grid;
-//         grid-template-columns: 1fr;
+        }
         
-//     }
-// }
-
-// @media screen and (max-width: 769px){
-//     .top-services{
-//         margin: 0;
-//         display: flex;
-//         // grid-template-columns: 1fr 1fr;
-//         // grid-template-rows: 1fr 1fr;
-
-//         // grid-gap: 10px;
-//         flex-direction: column;
-//         padding: 10px;
-//         &__heading{
-//             width: 100vw;
-//             padding: 20px 0;
-//             font-size: 1rem;
-
-//         }
-//     }
+        &__img{
+            width: 80vw;
+            grid-template-columns: 300px 300px;
+        }
+    }
     
-// }
+}
 
 
+@media screen and (min-width: 1501px){
+    .btn {
+        background: $col-skyBlue;
+        color: $col-white;
+        padding: 0.6rem 1.3rem;
+        font-size: 22px;
+        font-weight: 600;
+        cursor: pointer; 
+        margin-top: 20px;
+    }
 
+    .btn:hover{
+        color: $col-blue;
+    }
 
+    .top-page-grid{
+        padding-top: 75px;
+        display: grid;
+        grid-template-columns: 45% 40%;
+        margin: 0 200px;
 
+        .img-3col img{
+            box-shadow: $box-shadow;
+            border-bottom-right-radius: 250px;
+            border-top-left-radius: 235px;
+            margin: 0 20px;
+        }
+        .top-text{
+            // border-left: 1px solid gray;
+            padding-left: 20px;
+        }
+        .top-text h1{
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: $col-blue;
+            padding-bottom: 10px;
+        }
+        .top-text p{
+            line-height: 28px;
+            font-size: 22px;
+            text-align: justify;
+        }
+    }
 
-
-// @media screen and (min-width: 1501px){
-//     .aaaH2 {
-//         p{color: orange !important;
-//         font-size: 28px !important;
-//     }
+    .aaaH2 {
+        p {
+            color: orange !important;
+            font-size: 28px !important;
+        }
         
-//     }
+    }
 
-// .top-services__heading {grid-area: heading;}
-// .top-services__img {grid-area: img;}
+    .top-services__heading {grid-area: heading;}
+    .top-services__img {grid-area: img;}
 
-// .top-services{
-//     margin: 0 200px;
-//     padding-top: 0px;
-//     display: grid;
-//     grid-template-areas: 
-//         // "heading heading heading heading"
-//         "img img img img";
-//     grid-gap: 10px;
-//     padding: 10px;
-//     margin-top: 0px;
+    .top-services{
+        margin: 0 200px;
+        padding-top: 0px;
+        display: grid;
+        grid-template-areas: 
+            // "heading heading heading heading"
+            "img img img img";
+        grid-gap: 10px;
+        padding: 10px;
+        margin-top: 0px;
 
-    
-    
-//     &__img{
-//         width: 80vw;
-//         padding: 10px 5px;
-//         justify-items: space-evenly;
-//         grid-template-rows: 300px 300px;
-//         grid-template-columns: 300px 300px 300px 300px;
-//         cursor: pointer;
-//     }
-// }
+        &__img{
+            width: 80vw;
+            padding: 10px 5px;
+            justify-items: space-evenly;
+            grid-template-rows: 300px 300px;
+            grid-template-columns: 300px 300px 300px 300px;
+            cursor: pointer;
+        }
+    }
 
 
-// .mid-page-grid{
-//     width: 65vw;
-//     margin: 0 200px;
-//     padding-top: 15px;
-//     display: grid;
-//     grid-template-columns: auto auto auto auto; 
-//     margin-top: 30px;
-//     text-align: center;
-//     line-height: 24px;
-//     font-size: 18px;
+    .mid-page-grid{
+        width: 65vw;
+        margin: 0 200px;
+        padding-top: 15px;
+        display: grid;
+        grid-template-columns: auto auto auto auto; 
+        margin-top: 30px;
+        text-align: center;
+        line-height: 24px;
+        font-size: 18px;
 
-// }
+    }
 
-// .para{
-//     width: 80vw;
-//     margin: 0;
-//     padding-top: 15px;
-//     padding: 10px;
-//     margin-top: 30px;
-//     text-align: center;
-//     line-height: 24px;
-//     font-size: 18px;
-//     a {
-//         text-decoration: none;
-//         color: $col-blue;
-//     }
-// }
+    .para{
+        width: 80vw;
+        margin: 0;
+        padding-top: 15px;
+        padding: 10px;
+        margin-top: 30px;
+        text-align: center;
+        line-height: 24px;
+        font-size: 18px;
+        a {
+            text-decoration: none;
+            color: $col-blue;
+        }
+    }
 
-// .show-me-how{
-//     background: $col-orange;
-//     height: 350px;
-//     width: 100vw;
-//     margin: 30px 0px -55px 0px;
-//     padding-top: 15px;
-//     display: grid;
-//     grid-template-columns: auto auto auto auto; 
-//     text-align: center;
-//     font-size: 18px;
-// }
+    .show-me-how{
+        background: $col-orange;
+        height: 350px;
+        width: 100vw;
+        margin: 30px 0px -55px 0px;
+        padding-top: 15px;
+        display: grid;
+        grid-template-columns: auto auto auto auto; 
+        text-align: center;
+        font-size: 18px;
+    }
 
 
-// }
-// @media screen and (max-width: 1500px){
-//     .top-services{
-//         margin: 0 20px;
-//         grid-template-areas: 
-//             "heading heading"
-//             "img";
-//         grid-gap: 20px;
-//         padding: 20px;
-//         &__heading{
-//             width: 100vw;
-//             padding: 20px 5px 0px 5px;
-//             font-size: 1rem;
-
-//         }
-        
-//         &__img{
-//             width: 80vw;
-//             grid-template-columns: 300px 300px;
-//         }
-//     }
-    
-// }
+}
 
 .mainContents {
-    margin: 0 auto;
+    margin: 0
 }
