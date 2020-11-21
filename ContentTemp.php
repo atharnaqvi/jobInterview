@@ -1,5 +1,12 @@
 <?php
-	require "header.php"
+    require "header.php"
+    /*
+     <<<<<<<<<<<<<<<<<<<<<<<<<<      DOCUMENT NOTES        >>>>>>>>>>
+    _menu.scss
+    _variables.scss
+    _gridBizz.scss
+    _footer.scss
+    */
 	
 ?>	
 
@@ -9,7 +16,7 @@
 <!-- ******************************************************************************************************************* -->
 
     <!-- Page Body ***********************Start Here -->
-<div class="mainContents">
+
 <div class="top-page-grid">
     <div class="img-3col">
         <img src="images/computer.jpg" alt="Computer">
@@ -33,13 +40,14 @@
     </div> <!--class="top-text" end here -->
 </div>    <!--class="top-page-grid" end here -->
 
-<div >
-    <h2 class="sub-heading">Our Top Services </h2>
+<div class="sub-heading">
+    <h2>Our Top Services </h2>
+    <span class="borderBelow"></span>
 </div>
 <div class="top-services">
 
     <!-- <div class="top-services__img"> -->
-        <img src="images/sml-images/cv.jpg" alt="">
+        <a href="Resume_Review.php"><img src="images/sml-images/cv.jpg" alt="Resume Review"></a>
         <img src="images/sml-images/career-advice.jpg" alt="">
         <img src="images/sml-images/job-search-strategy.jpg" alt="">
         <img src="images/sml-images/mock-interview.jpg" alt="">
@@ -47,11 +55,12 @@
 </div><!--class="top-services" end here -->
 
    
- <div class="aaaH2">
-     <p>How it works</p>
+ <div class="sub-heading">
+     <h2>How it works</h2>
+     <span class="borderBelow"></span>
 </div>
         
-
+<div class="grayBackground">
 <div class="mid-page-grid">
     <!-- <div class="mid-page-grid__sec">   -->
         <!-- boxes section  --> 
@@ -81,14 +90,15 @@
 </div><!--class="mid-page-grid" end here -->
 
 <div class="para">
-    <p>More questions on what to expect? head on over to our 
+    <p>More questions on "What to expect?" head on over to our 
         <a href="contact.php">Coaching FAQs</a> 
         or contac one of our Career Expert.
     </p>
 </div>
-<div class="h2-heading">
+<div class="sub-heading">
     <h2>Not Sure What You Need?</h2>
-    <button class="btn">Help me in my career !</button><br><br>
+    <span class="borderBelow"></span>
+    <a href="#"><button class="btn">Help me in my career !</button></a><br><br>
 </div>
 
 
@@ -102,7 +112,7 @@
 
 
 
-</div> <!--class="mainContents" end here -->
+</div> <!--class="grayBackground" end here -->
 
 
 

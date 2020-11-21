@@ -39,5 +39,37 @@ $title-h1-font-size: 44px;
 $title-p-font-size: 22px;
 $title-btn-font-size: 18px;
 
+
 $box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 
+.vlLeft150 {
+    border-left: 1px solid $col-Darkgray;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+.vlLeft200 {
+    border-left: 2px solid $col-Darkgray;
+    height: 200px
+}
+.vlLeft300 {
+    border-left: 3px solid $col-Darkgray;
+    height: 300px
+}
+.vlLeft400 {
+    border-left: 4px solid $col-Darkgray;
+    height: 400px
+}
+.vlLeft500 {
+    border-left: 4px solid $col-Darkgray;
+    height: 500px
+}
+
+.vlLeft600 {
+    border-left: 4px solid $col-Darkgray;
+    height: 600px
+}
+.vlLeft700 {
+    border-left: 4px solid $col-Darkgray;
+    height: 700px
+}
