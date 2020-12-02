@@ -73,7 +73,7 @@
 		<div class="section3Item">
 			<h2>Moke Interview</h2>
 			<form action="#">
-			<label>Pathway:</label>
+			<!-- <label>Pathway:</label> -->
 			<select  name="SelectTopic" onchange="pathway()" id="selPathway">
 				<option  value="0" class="topics">Select your pathway</option>
 				<option value="1">App Developer</option>
@@ -94,9 +94,9 @@
 			  </select>
 
 			  <div id="AppDev">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" class="AppDevelopment" id="AppDevSelect">
-					<option value="0" class="topics">Select your pathway</option>
+					<option value="0" class="topics">Your specialization</option>
 					<option value="1">Android Developer</option>
 					<option value="2">Android Software Developer</option>
 					<option value="3">Graduate App Developer</option>
@@ -105,23 +105,23 @@
 				  </select>
 			  </div>
 			  <div id="AppInt">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="AppIntSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Application Integration Development</option>
 				  </select>
 			  </div>
 			  <div id="Broadcast">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="BroadcastSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Broadcast Technican</option>
 				  </select>
 			  </div>
 			  <div id="CloudServices">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="CloudServicesSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">34kV SAP / Control Engineer</option>
 					<option value="2">Azure Data Analyst Developer</option>
 					<option value="3">Cloud Analyst Developer Microsoft Azure</option>
@@ -132,9 +132,9 @@
 				  </select>
 			  </div>
 			  <div id="Data">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="DataSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">BI Developer</option>
 					<option value="2">Chief Data Officer</option>
 					<option value="3">Data Architect</option>
@@ -157,17 +157,17 @@
 				  </select>
 			  </div>
 			  <div id="eCommerce">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="eCommerceSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Magento Developer</option>
 					<option value="2">Shopify Developer</option>
 				</select>
 			  </div>
 			  <div id="ITSupport">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="ITSupportSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">ICT Senior Infrastructure Engineer</option>
 					<option value="2">ICT Specialist</option>
 					<option value="3">Junior Operations and Support Analyst</option>
@@ -176,9 +176,9 @@
 				  </select>
 			  </div>
 			  <div id="JavascriptDev">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="JavascriptDevSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Angular/JS Developer</option>
 					<option value="2">JavaScript Developer</option>
 					<option value="3">Javascript Developer (Node.js, Angular.js, React)</option>
@@ -189,9 +189,9 @@
 				  </select>
 			  </div>
 			  <div id="NetworkEng">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="NetworkEngSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Access Management Engineer, Network Information Security</option>
 					<option value="2">Cluster IT Technician</option>
 					<option value="3">Directory Services Operations Engineer</option>
@@ -205,9 +205,9 @@
 				  </select>
 			  </div>
 			  <div id="ProjectTeam">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="ProjectTeamSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Analyst</option>
 					<option value="2">Application Business Analyst, NIS</option>
 					<option value="3">Business Analyst (BA)</option>
@@ -226,9 +226,9 @@
 				  </select>
 			  </div>
 			  <div id="Secuirty">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="SecuirtySelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Graduate Technology Forensic Data Analytics</option>
 					<option value="2">IAM Developer, Network Information Security</option>
 					<option value="3">Information Security Engineer</option>
@@ -237,16 +237,16 @@
 				  </select>
 			  </div>
 			  <div id="SEO">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="SEOSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">SEO Analyst</option>	
 				  </select>
 			  </div>
 			  <div id="SoftwareDev">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="SoftwareDevSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">C# C++ Developer</option>
 					<option value="2">C# Developer</option>
 					<option value="3">CAD Project Engineer</option>
@@ -269,9 +269,9 @@
 				  </select>
 			  </div>
 			  <div id="Testing">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="TestingSelect">
-					<option value="0" class="topics">Select your pathway</option>
+					<option value="0" class="topics">Your specialization</option>
 					<option value="1">Automation Tester</option>
 					<option value="2">Lead Test Analyst</option>
 					<option value="3">Manual Tester</option>
@@ -288,9 +288,9 @@
 				  </select>
 			  </div>
 			  <div id="WebDev">
-				<label>Specialisation: </label>
+				<!-- <label>Specialisation: </label> -->
 				<select  name="SelectTopic" onchange="itMainFORM()" id="WebDevSelect">
-					<option  value="0" class="topics">Select your pathway</option>
+					<option  value="0" class="topics">Your specialization</option>
 					<option value="1">Backend Engineer</option>
 					<option value="2">Frontend Web Developer</option>
 					<option value="3">Full Stack PHP Laravel Developer</option>

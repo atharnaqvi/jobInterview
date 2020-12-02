@@ -10,7 +10,7 @@
         <p>
             Your questions and comments are important to us. Select a topic below, or reach us by phone, email or online form. We've got everthing covered for your needs. 
         </p>
-        <select id="SelectTopic" name="SelectTopic")">
+        <select id="SelectTopic" name="SelectTopic">
             <option class="topics">Select a topic</option>
             <option>Mock Interview</option>
             <option>CV Service</option>
@@ -20,8 +20,8 @@
             <option>Suggestions</option>
             <option>How to become a partner</option>
             <option>Why us?</option>
-          </select>
-          <input type="submit" name="GetAnswers" id="GetAnswers" value="Get Answers" onclick="GetAnswers()">
+        </select>
+        <input type="submit" name="GetAnswers" id="GetAnswers" value="Get Answers" onclick="GetAnswers()">
     </div>
     <div class="helpTopics" >
 
@@ -242,23 +242,23 @@
         <h2 class="formH2">SEND US AN EMAIL</h2><br>
         <form action="contactForm.php" method="post">   
          <div>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="   Your name.." required>
+            <!-- <label for="fname">First Name</label> -->
+            <input type="text" id="fname" name="firstname" placeholder="   First name  *" required>
         </div>
         <div>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="   Your last name.." required>
+            <!-- <label for="lname">Last Name</label> -->
+            <input type="text" id="lname" name="lastname" placeholder="   Last name  *" required>
         </div>
         <div>
-            <label for="lname">email</label>
-            <input type="email" id="email" name="mail" placeholder="Your email.." required>
+            <!-- <label for="lname">Email</label> -->
+            <input type="email" id="email" name="mail" placeholder="Email  *" required>
         </div>
         <div>
-            <label for="phone">Phone/mobile</label>
-            <input type="text" name="phone" name="phone" placeholder="   Your phone/mobile.." >
+            <!-- <label for="phone">Phone/mobile</label> -->
+            <input type="text" name="phone" name="phone" placeholder="   Phone/mobile" >
         </div>
         <div class="form-service-feild">
-        <label for="service">Service</label>
+        <!-- <label for="service">Service</label> -->
             <select id="subject" name="subject">
                 <option class="topics">Select topic</option>
                 <option value="MockInterview">Mock Interview</option>
@@ -271,10 +271,10 @@
             </select>
         </div>
         <div class="message-form">
-        <label for="Message">Message</label>
-        <textarea id="Message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+        <!-- <label for="Message">Message</label> -->
+        <textarea id="Message" name="message" placeholder="Message.. *" style="height:200px" required></textarea>
         </div>
-        <input type="submit" name="submit" value="Submit" class="submit">
+        <input type="submit" name="submit" value="SEND" class="submit">
     
       </form>
     </div>
@@ -288,8 +288,8 @@
     </a>
     </div> -->
     <div id="phone-btn">
-        <img src="images/logo/call.png">
-        <h1>Talk to us</h1>
+        <img src="images/logo/call.png"><BR>
+        <h1>TALK TO US</h1>
         
         <div class="phone-text">
             <img src="images/logo/phone-icon.png" alt="Call">

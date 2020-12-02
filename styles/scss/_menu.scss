@@ -202,27 +202,36 @@ nav ul.menu-area {
     }
     
     nav ul.menu-area{
-        padding: 40px 40px 0 40px;
-        
+        padding: 20px 0px 40px 20px;
         border-top: 5px solid #164c82;
         box-shadow: 0 5px 10px rgba(0,0,0,0.6);
         border-bottom-right-radius: 30px;
         border-bottom-left-radius: 30px;
         position: absolute;
-        display: grid;
-        grid-template: repeat(2, 200px) / repeat(4, 1fr);	
-        grid-gap: 10px;
+        display: flex;
+        justify-content: center;
+        
+        
+        // display: grid;
+        // grid-template: repeat(2, 200px) / repeat(3, 1fr);	
+        // // grid-template-columns: 1fr 2fr 2fr;
+        // // grid-template-rows: 1fr;
+        // grid-gap: 10px;
         width: 100%;
-        height: 575px;
+        margin: 0 auto;
+        height:245px;
         top:-9999px;
-        left: 0;
+        left: 0px;
         text-align: left;
         // @include transition-ease;
         transition-timing-function: linear;
         opacity: 1;
         background: $col-white;
+        ul{
+            margin: 0 -100px;
+        }
     }
-    
+
     nav ul.menu-area .image-menu-area{
         grid-row: 1/3;
         // margin-right: 30px;
@@ -251,6 +260,17 @@ nav ul.menu-area {
     nav ul.menu-area h4{
         margin-bottom: 1rem;
         text-transform: uppercase;
+        color: $col-blue;
+        font-size: 22px;
+        font-weight: bold;
+        a{
+            text-decoration: none;
+            color: $col-blue;
+           
+        }
+        a:hover{
+                color: $col-submit;
+            }
     }
     
     nav ul.menu-area ul li{
@@ -261,11 +281,16 @@ nav ul.menu-area {
         color: $col-black;
         margin-top: 10px;
         text-transform: none;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: .1rem;
+        // font-weight: bold;
     }
     
     nav ul.menu-area ul li a:hover{
-        color: $col-skyBlue;
+        color: $col-blue;
         text-decoration: none;
+        // font-weight: bold;
     }
     
 

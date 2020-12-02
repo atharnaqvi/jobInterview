@@ -259,28 +259,32 @@
     font-size: 1.3rem;
   }
   nav ul.menu-area {
-    padding: 40px 40px 0 40px;
+    padding: 20px 0px 40px 20px;
     border-top: 5px solid #164c82;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     position: absolute;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-rows: (200px)[2];
-    -ms-grid-columns: (1fr)[4];
-        grid-template: repeat(2, 200px)/repeat(4, 1fr);
-    grid-gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     width: 100%;
-    height: 575px;
+    margin: 0 auto;
+    height: 245px;
     top: -9999px;
-    left: 0;
+    left: 0px;
     text-align: left;
     -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
     opacity: 1;
     background: #fff;
+  }
+  nav ul.menu-area ul {
+    margin: 0 -100px;
   }
   nav ul.menu-area .image-menu-area {
     -ms-grid-row: 1;
@@ -306,6 +310,16 @@
   nav ul.menu-area h4 {
     margin-bottom: 1rem;
     text-transform: uppercase;
+    color: #0808dd;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  nav ul.menu-area h4 a {
+    text-decoration: none;
+    color: #0808dd;
+  }
+  nav ul.menu-area h4 a:hover {
+    color: green;
   }
   nav ul.menu-area ul li {
     display: block;
@@ -314,9 +328,12 @@
     color: #000;
     margin-top: 10px;
     text-transform: none;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .1rem;
   }
   nav ul.menu-area ul li a:hover {
-    color: #668fc5;
+    color: #0808dd;
     text-decoration: none;
   }
   .titleImageDiv {
@@ -483,7 +500,6 @@
 
 .titleContainer {
   /*index.php, it.php*/
-  width: 100vw;
   background: url("../../images/img-home.jpg") no-repeat center;
   height: 650px;
   background-color: #cccccc;
@@ -594,21 +610,37 @@
   background: url("../../images/img-home.jpg") no-repeat center;
 }
 
-.cv-review {
-  background: url("../../images/cv-top.jpg") no-repeat center;
-  height: 350px;
-}
-
 .newTest {
   background: url("../../images/IT-Category-Top.jpg") no-repeat center;
 }
 
 .About {
-  background: url("../../images/about-us.jpg") no-repeat center;
+  background: url("../../images/about-us1.jpg") no-repeat center;
 }
 
 .it {
-  background: url("../../images/IT-Category-Top.jpg") no-repeat center;
+  background: url("../../images/IT-Category-Top2.jpg") no-repeat center;
+  height: 650px;
+}
+
+.cv-review {
+  background: url("../../images/cv-top.jpg") no-repeat center;
+  height: 650px;
+}
+
+.career-advice {
+  background: url("../../images/career-advice.jpg") no-repeat center;
+  height: 650px;
+}
+
+.job-search-strategy {
+  background: url("../../images/job-search.jpg") no-repeat center;
+  height: 650px;
+}
+
+.mock-interview {
+  background: url("../../images/mock-interview.jpg") no-repeat center;
+  height: 650px;
 }
 
 .titleItems {
@@ -644,6 +676,37 @@
           order: 1;
 }
 
+.titlePAbout {
+  /*about.php*/
+  max-width: 450px;
+  height: 150px;
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 0.05em;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-top: -100px;
+  margin-left: 1000px;
+  padding-top: 30px;
+}
+
+.titleBtnAbout {
+  /*about.php*/
+  font-size: 18px;
+  background: #0066ff;
+  border-radius: 2px;
+  width: 175px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  height: 50px;
+  letter-spacing: 0.1em;
+  color: white;
+  margin-left: 275px;
+  margin-left: 0px;
+  margin-top: 150px;
+}
+
 .titleBtn {
   /*it.php*/
   font-size: 18px;
@@ -655,6 +718,7 @@
   height: 50px;
   letter-spacing: 0.1em;
   color: white;
+  margin-left: 275px;
 }
 
 .titleBtn:hover {
@@ -775,7 +839,6 @@
   /*contact.php*/
   color: white;
   margin: 60px 0;
-  /* justify-content: left; */
 }
 
 .container_2 {
@@ -921,19 +984,17 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* min-height: 450px; */
 }
 
 .container_3 .webFormNew {
   display: block;
-  background: #cccccc;
-  width: 550px;
-  margin-right: 10px;
+  width: 600px;
+  margin-right: 40px;
   padding: 5px 10px;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  border-radius: 5px;
+  border-radius: 10px;
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
@@ -941,14 +1002,50 @@
 }
 
 .container_3 .webFormNew form {
-  width: 100vw;
-  line-height: 30px;
+  line-height: 50px;
+}
+
+.container_3 .webFormNew form label {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 20px;
 }
 
 .container_3 .webFormNew form input {
   width: 530px;
-  height: 30px;
+  height: 50px;
   border: none;
+  font-size: 18px;
+  margin: 20px 20px;
+  padding: 0 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
+          box-shadow: 0.2px 0.2px 2px 1px;
+  background-color: #f7f7f7;
+}
+
+.container_3 .webFormNew form select {
+  width: 530px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  margin: 20px 20px;
+  padding: 0 10px;
+  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
+          box-shadow: 0.2px 0.2px 2px 1px;
+  background-color: #f7f7f7;
+}
+
+.container_3 .webFormNew form textarea {
+  width: 530px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  margin: 20px 20px;
+  padding: 10px 20px;
+  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
+          box-shadow: 0.2px 0.2px 2px 1px;
+  background-color: #f7f7f7;
 }
 
 .container_3 .webFormNew form .form-service-feild {
@@ -962,12 +1059,14 @@
 .container_3 .webFormNew form .submit {
   background: green;
   color: #fff;
-  width: 530px;
+  width: 92%;
   border-radius: 5px;
-  font-size: 26px;
-  padding: 3px auto;
-  line-height: 30px;
-  height: 40px;
+  font-size: 32px;
+  line-height: 70px;
+  height: 70px;
+  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
+          box-shadow: 0.2px 0.2px 2px 1px;
+  letter-spacing: 2px;
 }
 
 .container_3 .webFormNew form .submit:hover {
@@ -975,20 +1074,24 @@
   cursor: pointer;
 }
 
+#email {
+  padding: 0 25px;
+}
+
 .container_3 div {
   display: block;
-  background: #cccccc;
   width: 25%;
   cursor: pointer;
 }
 
 .formH2 {
-  text-align: center;
-  background-color: #0808dd;
-  color: white;
-  width: 100%;
-  padding: 5px 0;
+  margin: 15px auto;
+  text-align: left;
+  padding: 15px 0;
+  margin-left: 15px;
   border-radius: 5px;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .container_3 div img {
@@ -1002,26 +1105,28 @@
 .container_3 div h1 {
   display: block;
   margin: 5px 0 10px 35px;
-  /* text-align: center; */
-  /* max-width: 80%; */
 }
 
 .container_3 div p {
   display: block;
   margin: 5px 20px 10px 35px;
-  /* text-align: center; */
-  /* line-height: 20px; */
   font-size: 18px;
   color: #090088;
-  /* max-width: 80%; */
   letter-spacing: .05em;
   line-height: 1.4rem;
 }
 
 .container_3 #phone-btn {
   cursor: default;
-  border-radius: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 15px;
   margin-left: 10px;
+  background: #fff;
+  height: 300px;
+  width: 300px;
+  -webkit-box-shadow: 0.5px 0.5px 5px 0px;
+          box-shadow: 0.5px 0.5px 5px 0px;
+  margin-top: 140px;
 }
 
 .container_3 #phone-btn .phone-text {
@@ -1035,6 +1140,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: #fff;
 }
 
 .container_3 #phone-btn .phone-text img {
@@ -1145,18 +1251,6 @@
   padding: 20px 20px;
 }
 
-/* .phone {
-	border-radius: 5px;
-	background-color: #f2f2f2;
-	padding: 20px;
-	/* display: none; */
-/*flex-flow: row wrap;
-	width: 79%;
-	margin-left: 70px;
-	margin-right: 30px;
-	margin: 20px auto;
-	padding: 20px 20px;
-  } */
 .showhideWeb {
   display: none;
 }
@@ -1171,8 +1265,6 @@
 .textPage {
   width: 70%;
   display: block;
-  /* flex-direction: row; */
-  /*flex-flow: row wrap;*/
   margin: 10px auto;
   padding: 0 10px;
 }
@@ -1232,8 +1324,11 @@
           flex-flow: row wrap;
   width: 100%;
   margin: 0px auto;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
 }
 
 .section1Item {
@@ -1535,6 +1630,59 @@
 }
 
 @media screen and (min-width: 1501px) {
+  .page-heading {
+    border-bottom: 1px solid #444242;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 1px 20px #444;
+            box-shadow: 0px 1px 20px #444;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+  }
+  .page-heading h1 {
+    text-align: center;
+    color: #444242;
+    font-size: 3rem;
+    margin: 0 auto;
+    line-height: 100px;
+    text-shadow: 5px 10px 10px #b1b1b1;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .booking {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    width: 60%;
+    line-height: 2rem;
+  }
+  .booking img {
+    padding-right: 20px;
+  }
+  .booking .booking-text {
+    font-size: 24px;
+  }
+  .booking button {
+    margin: 35px 0;
+    padding: 15px 25px;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 2px 2px 5px #444242;
+            box-shadow: 2px 2px 5px #444242;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 15px;
+  }
+  .booking button:hover {
+    background-color: #03b803;
+  }
   .top-page-grid {
     padding-top: 75px;
     margin: 0 auto;
@@ -1592,7 +1740,9 @@
     font-weight: 600;
     cursor: pointer;
     border: none;
+    outline: none;
     border-radius: 5px;
+    text-transform: uppercase;
   }
   .sub-heading .btn:hover {
     color: #444242;

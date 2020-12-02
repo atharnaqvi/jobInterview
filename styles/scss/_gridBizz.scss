@@ -170,23 +170,74 @@
         color: $col-blue;
     }
 }
-.grayBackground {
-    background-color: $col-LightGray;
-}
-
-
+    .grayBackground {
+        background-color: $col-LightGray;
+    }
 }
 
 
 @media screen and (min-width: 1501px){
  
-   
+   .page-heading{       
+        border-bottom: 1px solid $col-Darkgray;
+        background-color: #e4e4e4;
+        margin: 0 auto;
+        box-shadow: 0px 1px 20px #444;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 50px;
+        position: sticky;
+        top: 30px;
+       h1{
+           text-align: center;
+           color: $col-Darkgray;
+           font-size: 3rem;
+           margin: 0 auto;
+           line-height: 100px; 
+           text-shadow: 5px 10px 10px $col-LightGray;
+           font-weight: bold;
+           text-transform: uppercase;
+       }
+   }
+
+   .booking{
+       margin: 0 auto;
+       text-align: center;
+       padding-top: 35px;
+       width: 60%;
+       line-height: 2rem;
+       img{
+           padding-right: 20px;
+           
+       }
+       .booking-text{
+           font-size: 24px;
+       }
+       button{
+           margin: 35px 0;
+           padding: 15px 25px;
+           font-size: 28px;
+           cursor: pointer;
+           border: none;
+           outline: none;
+           box-shadow: 2px 2px 5px $col-Darkgray;
+           background-color: $col-submit;
+           color: white;
+           text-transform: uppercase;
+           border-radius: 15px;
+           }
+           button:hover{
+            background-color: $col-hover;
+            
+           }
+           
+       
+   }
 
     .top-page-grid{
         
         padding-top: 75px;
         margin: 0 auto;
-        
         display: grid;
         grid-gap: 10px;
         justify-content: center;
@@ -240,7 +291,9 @@
             font-weight: 600;
             cursor: pointer; 
             border: none;
+            outline: none;
             border-radius: 5px;
+            text-transform: uppercase;
         }
     
         .btn:hover{

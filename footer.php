@@ -8,15 +8,16 @@
 		</div>
 		<dir class="footer_third">
 			<h1>Need Help?</h1>
-			<a href="terms.php">Terms &amp; Conditions</a>
-			<a href="privacy.php">Privacy Policy</a>
+			<a href="#">F &amp; Q</a>
+			<a href="contact.php">Talk to us</a>
 			<a href="#">Talk to an advisor</a>
 		</dir>
 		<dir class="footer_third">
-			<h1>Services</h1>
-			<a href="#">Terms &amp; Conditions</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
+			<a href="services.php"><h1>Top Services</h1></a>
+			<a href="Resume_Review.php">Resume Review</a>
+			<a href="career-advice.php">Career Advice</a>
+			<a href="jobs-search.php">Jobs Search Stategy</a>
+			<a href="mock-interview.php">Mock Interview</a>
 		</dir>
 		<dir class="footer_third">
 			<h1>Why us?</h1>
@@ -25,8 +26,9 @@
 			<a href="#">Talk to an advisor</a>
 		</dir>
 		<dir class="footer_third">
-			<h1>To be deleted</h1>
-			<a href="ContentTemp.php">Content Temp</a>
+			<h1>Offical</h1>
+			<a href="terms.php">Terms &amp; Conditions</a>
+			<a href="privacy.php">Privacy Policy</a>
 			<a href="signin.php">Sign in</a>
 			<a href="AllMessages.php">Messages</a>
 		</dir>

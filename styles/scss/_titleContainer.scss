@@ -12,7 +12,7 @@
 // }
 
 .titleContainer{						/*index.php, it.php*/
-	width: 100vw;
+	// width: 100vw;
 	background: url("../../images/img-home.jpg") no-repeat center;
 	height: 650px;
 	background-color: #cccccc;
@@ -67,21 +67,38 @@
 	background: url("../../images/img-home.jpg") no-repeat center;
 }
 
-.cv-review{
-	background: url("../../images/cv-top.jpg") no-repeat center;
-	height: 350px;
-}
 .newTest{
 	background: url("../../images/IT-Category-Top.jpg") no-repeat center;
 }
 
 .About{
-	background: url("../../images/about-us.jpg") no-repeat center;
-	
+	background: url("../../images/about-us1.jpg") no-repeat center;
+
 }
 
 .it {
-	background: url("../../images/IT-Category-Top.jpg") no-repeat center;
+	background: url("../../images/IT-Category-Top2.jpg") no-repeat center;
+	height: 650px;
+}
+
+.cv-review{
+	background: url("../../images/cv-top.jpg") no-repeat center;
+	height: 650px;
+}
+
+.career-advice {
+	background: url("../../images/career-advice.jpg") no-repeat center;
+	height: 650px;
+}
+
+.job-search-strategy {
+	background: url("../../images/job-search.jpg") no-repeat center;
+	height: 650px;
+}
+
+.mock-interview {
+	background: url("../../images/mock-interview.jpg") no-repeat center;
+	height: 650px;
 }
 
 .titleItems{							/*it.php*/
@@ -110,6 +127,34 @@
 	order: 1;
 }
 
+	.titlePAbout{						/*about.php*/
+		max-width: 450px;
+		height: 150px;
+		margin-top: 20px;
+		font-size: 22px;
+		letter-spacing: 0.05em;
+		order: 1;
+		margin-top: -100px;								
+		margin-left: 1000px;
+		padding-top: 30px;
+	}
+	
+	.titleBtnAbout{						/*about.php*/
+		font-size: 18px;
+		background: #0066ff;
+		border-radius: 2px;
+		width: 175px;
+		margin-top: 20px;
+		text-transform: uppercase;
+		height: 50px;
+		letter-spacing: 0.1em;
+		color: white;
+		margin-left: 275px;						
+		margin-left: 0px;
+		margin-top: 150px;	
+	}
+
+
 .titleBtn{								/*it.php*/
 	font-size: 18px;
 	background: #0066ff;
@@ -120,6 +165,7 @@
 	height: 50px;
 	letter-spacing: 0.1em;
 	color: white;
+	margin-left: 275px;
 }
 
 .titleBtn:hover{						/*it.php*/

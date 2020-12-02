@@ -1,22 +1,25 @@
 $background-color: (
-    "light": #fff,
+    "light": rgb(255, 255, 255),
     "black": #000,
     "dgray": rgb(44, 44, 44),
     "midgray": rgb(100, 100, 100),
+    "light-gray": rgb(231, 231, 231),
+    "lighter-gray": rgb(247, 247, 247),
     "lgray": rgb(180, 180, 180)
 );
 
 $font-size: (
     "sm": 14px,
     "md": 20px,
-    "lrg": 26px
+    "lrg": 26px,
+    "big": 32px
 );
 
 $text-color:  #fff;
 $b-color: #000;
 
 $mobile: 800px;
-
+$col-gray: gray;
 $col-white: #fff;
 $col-LightGray: rgb(177, 177, 177);
 $col-Darkgray: rgb(68, 66, 66);
@@ -31,6 +34,7 @@ $title-col: white;
 $chinese-silver: #cccccc;
 $col-orange: #e58e26;
 $col-submit: green;
+$col-hover: rgb(3, 184, 3); 
 
 $font-size-small: 1rem;
 $font-size-medium: 2rem;

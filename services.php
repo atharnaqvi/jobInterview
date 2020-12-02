@@ -47,10 +47,18 @@
 <div class="top-services">
 
     <!-- <div class="top-services__img"> -->
-        <a href="Resume_Review.php"><img src="images/sml-images/cv.jpg" alt="Resume Review"></a>
-        <img src="images/sml-images/career-advice.jpg" alt="">
-        <img src="images/sml-images/job-search-strategy.jpg" alt="">
-        <img src="images/sml-images/mock-interview.jpg" alt="">
+        <a href="Resume_Review.php">
+            <img src="images/sml-images/cv.jpg" alt="Resume Review">
+        </a>
+        <a href="career-advice.php">
+            <img src="images/sml-images/career-advice.jpg" alt="Career Advice">
+        </a>
+        <a href="jobs-search.php">
+            <img src="images/sml-images/job-search-strategy.jpg" alt="Job Search Strategy">
+        </a>
+        <a href="mock-interview.php">
+            <img src="images/sml-images/mock-interview.jpg" alt="Mock Interview">
+        </a>
     <!-- </div> -->
 </div><!--class="top-services" end here -->
 

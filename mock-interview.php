@@ -10,7 +10,7 @@
 
 	<!-- Page Body ***********************Start Here -->
 
-	 <div class="titleContainer cv-review">
+	 <div class="titleContainer mock-interview">
 	
 	<!--	<div class="outer">	
 			<h1>I want, &nbsp; 
@@ -35,38 +35,38 @@
 
     <div class="page-heading">
         <h1>
-            Resume Review
+            Mock Interview
         </h1>
     </div>
 
 
 	<div class="three-options">
 		<div class="bronze">
-			<h2>Bronze <span class="price">£75</span></h2>
+			<h2>Bronze <span class="price">£250</span></h2>
             <a href="#" class="links">What's included</a>
             <ul class="outside">
                 <li>A 30 minute chat over Skype/Team or phone</li>
-                <li>An updated resume from your coach</li>
-                <li>One round of edits</li>
+                <li>A follow-up plan of attack from your coach</li>
+                <li>Second feedback via email</li>
             </ul>	
         </div>
         
         <div class="vlLeft150"></div>
 
 		<div class="silver">
-			<h2>Silver <span class="price">£100</span></h2>
+			<h2>Silver <span class="price">£350</span></h2>
             <a href="#" class="links">What's included</a>
             <ul class="outside">
                 <li>A 45-minute chat over Skype or phone</li>
                 <li>An updated resume from your coach</li>
-                <li> class="outside"Two rounds of edits</li>
+                <li>A 15 min follow-up session to discuss the progress</li>
             </ul>	
         </div>
 
         <div class="vlLeft150"></div>
         
         <div class="gold">
-			<h2>Gold <span class="price">£150</span></h2>
+			<h2>Gold <span class="price">£650</span></h2>
             <a href="#" class="links">What's included</a>
             <ul class="outside ">
                 <li>A 60-minute chat over Skype or phone</li>
@@ -76,9 +76,9 @@
 		</div>
     </div>
     <div class="booking">
-        <span class="booking-text"><img src="images/logo/CV-Logo-48.png" alt="Resume Review">We are committed to helping job seekers to be noticed and stand out in the crowd.</span>
+        <span class="booking-text"><img src="images/logo/CV-Logo-48.png" alt="Career Advice">Our  industry expert coaches guide you step by step to prepare for the job industry of your choice. They will give you an action plan to work towards your dream job.</span>
         <br>
-        <button>book now</button>
+        <button><a href="mock-interview-bookNow.php">book now</a></button>
     </div>
   
     <div class="sub-heading">
@@ -105,7 +105,7 @@
             <div class="mid-page-grid__sec">
                 <i class="fas fa-cog fa-4x"></i>
                 <h4>STEP 3</h4>
-                <h3>Submit Application</h3>
+                <h3>Decide on time</h3>
             </div>
             <div class="mid-page-grid__sec">
                 <i class="fas fa-users fa-4x"></i>
