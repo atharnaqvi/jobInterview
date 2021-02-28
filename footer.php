@@ -4,34 +4,34 @@
 <div class="footer">
 	<div class="inner-footer">
 		<div  class="footer_third">
-			<h1>JobInterview.co.uk</h1>
+			<a href="index.php"><h1>JobInterview.co.uk</h1></a>
 		</div>
-		<dir class="footer_third">
+		<div class="footer_third">
 			<h1>Need Help?</h1>
-			<a href="#">F &amp; Q</a>
-			<a href="contact.php">Talk to us</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
+			<a href="faq.php">F A Q </a>
+			<a href="contact.php">Contact Us</a>
+			
+		</div>
+		<div class="footer_third">
 			<a href="services.php"><h1>Top Services</h1></a>
 			<a href="Resume_Review.php">Resume Review</a>
 			<a href="career-advice.php">Career Advice</a>
 			<a href="jobs-search.php">Jobs Search Stategy</a>
 			<a href="mock-interview.php">Mock Interview</a>
-		</dir>
-		<dir class="footer_third">
-			<h1>Why us?</h1>
-			<a href="about.php">About us</a>
-			<a href="#">Privacy Policy</a>
-			<a href="#">Talk to an advisor</a>
-		</dir>
-		<dir class="footer_third">
+		</div>
+		<div class="footer_third">
+			<h1>About Us</h1>
+			<a href="about.php">About Us</a>
+			<a href="privacy.php">Privacy Policy</a>
+			<a href="terms.php">Terms & Conditions</a>
+		</div>
+		<!-- <dir class="footer_third">
 			<h1>Offical</h1>
 			<a href="terms.php">Terms &amp; Conditions</a>
 			<a href="privacy.php">Privacy Policy</a>
 			<a href="signin.php">Sign in</a>
 			<a href="AllMessages.php">Messages</a>
-		</dir>
+		</dir> -->
 		</div>
 </div>
 

@@ -1,4 +1,4 @@
-#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam,  #Secuirty, #SEO,  #SoftwareDev, #Testing,  #WebDev, #ITform  {
+#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam,  #Secuirty, #SEO,  #SoftwareDev, #Testing,  #WebDev, #ITform, #ITtopic, #nextBtn, #position, #package{
 	display: none;
 }
 
@@ -21,41 +21,185 @@
 	height: auto;
 }
 .section3Item{							
-	width: 350px;
-	max-height: 700px;
+	width: 600px;
+	height: auto;
+	
+	h2{						
+		text-transform: uppercase;
+		font-size: map-get($font-size, h1Heading);
+		font-weight: bold;
+		letter-spacing: .8px;
+		color: map-get($font-Col, h1Heading);
+		padding: 20px 0;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	
+	form{
+		width: 550px;
+		position: auto;
+		
+		select{
+			height: 60px;
+			line-height: 50px;
+			font-size: map-get($font-size, selectOption);
+			padding: 5px 0px 5px 15px;
+			border-radius: 10px;
+			border: 0;
+			border-bottom: 1px solid $col-LightGray;
+			width: 100%;
+			outline: none;
+			background: transparent;
+			color: $col-LightGray;
+		}
+		option{
+			color: #000;
+		}
+		option:first-child{
+			color: $col-LightGray;
+		}
+
+		input{
+			height: 60px;
+			line-height: 50px;
+			font-size: map-get($font-size, selectOption);
+			padding: 5px 0px 5px 15px;
+			border: 0;
+			border-bottom: 1px solid $col-LightGray;
+			border-radius: 10px;
+			width: 100%;
+			// margin-bottom: 20px;	
+			
+		}
+		
+		
+		.inputText{
+			margin-bottom: 20px;
+			padding-left: 20px;
+			border: 0;
+			border-bottom: 1px solid $col-LightGray;
+			border-radius: 10px;
+			width: 100%;
+			
+		}
+		.topic {
+				color: $col-LightGray;
+			}
+		#email{
+			margin-bottom: 20px;
+			width: 100%;
+			border-bottom: 1px solid $col-LightGray;
+			border-radius: 10px;
+		}
+
+		label{
+			// height: 60px;
+			line-height: 50px;
+			font-size: map-get($font-size, selectOption);
+			padding-left: 15px;
+		}
+		.uploadFile{
+			border-radius: 10px;
+			border: 0;
+			// border-bottom: 1px solid $col-LightGray;
+			
+			margin-bottom: 20px;
+			padding-left: 15px;
+		}
+		.submitBtn{
+			font-size: map-get($font-size, submit);
+		}
+		.dateTime{
+			width: 90%;
+			border-radius: 10px;
+			margin: 5px 10px 10px 10px;
+			border: 0;
+			border-bottom: 1px solid $col-LightGray;
+			border-radius: 10px;
+			
+		}
+		::placeholder{
+			color: $col-LightGray;
+		}
+
+		.btn-box{
+			width: 100%;
+			margin: 30px auto;
+			text-align: center;
+		}
+
+		button{
+			width: 110px;
+			height: 35px;
+			margin: 0 10px;
+			background: $btn-background;
+			border-radius: 30px;
+			border: 0;
+			outline: none;
+			color: $col-white;
+			cursor: pointer;
+		}
+		textarea{
+			// height: 60px;
+			line-height: 50px;
+			font-size: map-get($font-size, selectOption);
+			padding: 5px 0px 5px 15px;
+			border: 0;
+			border-bottom: 1px solid $col-LightGray;
+			border-radius: 10px;
+			width: 100%;
+			overflow: auto;
+			resize: none;
+		}
+	}
+	
+	
+	
+	
+
+	// #jobSpec{
+	// 	// height: 60px;
+	// 	line-height: 30px;
+	// 	font-size: map-get($font-size, selectOption);
+	// 	padding-left: 20px;
+		
+	// }
+
 	
 }
-.section3Item h2{						
-	text-transform: uppercase;
-	color: #0297A5;
-	font-size: 24px;
-	color: #c5c519;
-	padding-top: 20px;
 
-}
 
-.section1Item a.links{					
-	font-style: italic;
-	font-size: 14px;
+.section1Item{ 
+	a {					
+	
+	font-size: 18px;
 	text-decoration: none;
 	padding: 30px 0px 30px 0px;
 	line-height: 20px;
-}
-.section1Item h2{						
+	color: $col-Darkgray;
+	
+	}
+	a:hover{
+		color: $col-hover;
+		text-decoration: underline;
+	}
+
+ 	h2{						
 	text-transform: uppercase;
 	color: #0297A5;
 	font-size: 24px;
 	color: #c5c519;
 	padding-top: 20px;
-}
+	}
 
-.section1Item li{						
+	li{						
 	text-decoration: none;
 	padding: 10px 2px 0px 10px;
 	list-style: none;
 	width: 325px;
+	font-size: 18px;
+	}
 }
-
 @media only screen and (max-width: 400px){
 	.toggle-button{
 		display: flex;
@@ -121,3 +265,4 @@
 		font-size: 18px;
 	}
 }
+

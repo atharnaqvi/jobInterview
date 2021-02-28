@@ -1,0 +1,183 @@
+#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam,  #Secuirty, #SEO,  #SoftwareDev, #Testing,  #WebDev, #ITform, #ITtopic{
+	display: none;
+}
+
+.section1{								
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+	margin: 0px auto;
+	justify-content: center;
+	column-gap: 50px;
+}
+
+.section1Item{							
+	width: 350px;
+	
+}
+
+.section1Item img{						
+	width: 350px;
+	height: auto;
+}
+.section3Item{							
+	width: 500px;
+	height: auto;
+	h2{						
+		text-transform: uppercase;
+		font-size: map-get($font-size, h1Heading);
+		font-weight: bold;
+		letter-spacing: .8px;
+		color: map-get($font-Col, h1Heading);
+		padding: 20px 0;
+	}
+
+	select{
+		height: 60px;
+		line-height: 50px;
+		font-size: map-get($font-size, selectOption);
+		padding: 5px 0px 5px 15px;
+		border-radius: 10px;
+
+	}
+
+	input{
+		height: 60px;
+		line-height: 50px;
+		font-size: map-get($font-size, selectOption);
+		padding: 5px 0px 5px 10px;
+		border-radius: 10px;
+		width: 500px;
+		// margin-bottom: 20px;
+	}
+	.inputText{
+		margin-bottom: 20px;
+		padding-left: 15px;
+		border: 1px solid $col-LightGray;
+	}
+	
+	#email{
+		margin-bottom: 20px;
+	}
+
+	// #jobSpec{
+	// 	// height: 60px;
+	// 	line-height: 30px;
+	// 	font-size: map-get($font-size, selectOption);
+	// 	padding-left: 20px;
+		
+	// }
+
+	label{
+		// height: 60px;
+		line-height: 50px;
+		font-size: map-get($font-size, selectOption);
+		padding-left: 15px;
+	}
+	.uploadFile{
+		border-radius: 10px;
+		border: 1px solid $col-LightGray;
+		margin-bottom: 20px;
+		padding-left: 15px;
+	}
+	.submitBtn{
+		font-size: map-get($font-size, submit);
+	}
+	.dateTime{
+		width: 90%;
+		border-radius: 10px;
+		margin: 5px 10px 10px 10px;
+		
+		border: 1px solid $col-LightGray;
+		
+	}
+}
+
+
+.section1Item a.links{					
+	font-style: italic;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 30px 0px 30px 0px;
+	line-height: 20px;
+}
+.section1Item h2{						
+	text-transform: uppercase;
+	color: #0297A5;
+	font-size: 24px;
+	color: #c5c519;
+	padding-top: 20px;
+}
+
+.section1Item li{						
+	text-decoration: none;
+	padding: 10px 2px 0px 10px;
+	list-style: none;
+	width: 325px;
+}
+
+@media only screen and (max-width: 400px){
+	.toggle-button{
+		display: flex;
+	}
+	nav .logo{
+		color: yellow;
+		margin-left: 15px;
+		line-height: 50px;
+		margin-bottom: 10px;
+		display: block;
+		font-size: 24px;
+	}
+
+	nav .logo  a{
+		text-decoration: none;
+		color: white;
+		cursor: pointer;
+	}
+
+	nav ul.menu-area{
+		display: none;
+	}
+	.titleContainer{
+		display: none;
+	}
+	nav > ul{
+		flex-direction: column;
+		align-items: flex-start;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	nav > ul li.active{
+		width: 100%;
+		text-align: center;
+		display: none;		
+	}
+
+	nav > ul li a{
+		padding: .5rem 1rem;
+	}
+	.services{
+		/*padding-top: 50px; */
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.services h2{
+		font-size: 22px; 
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 1100px){
+	nav .logo{
+		display: none;
+}
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1642px){
+	 .logo{
+		font-size: 18px;
+	}
+}

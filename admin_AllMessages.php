@@ -6,9 +6,9 @@
 <main>
 
     <?php
-        if (isset($_SESSION['userId'])){
+       // if (isset($_SESSION['userId'])){
 
-            echo '<br><br><br>';
+            echo '<br><br><br><br><br><br>';
             echo '<h1>All Messages</h1><br>';
 
             $sql = "SELECT * FROM messages;";
@@ -43,12 +43,12 @@
             }else {
                 echo 'No record fount!!!';
             }
-        }else if(!isset($_SESSION['userId'])){
-            header('Location: signin.php?Signin=NotLoggedIn');
-        }
-        else{
-            echo '<p>You are logged out!!!</p>';
-        }
+        //}else if(!isset($_SESSION['userId'])){
+         //   header('Location: signin.php?Signin=NotLoggedIn');
+        //}
+       // else{
+       //     echo '<p>You are logged out!!!</p>';
+        //}
 
 
         mysqli_close($conn);

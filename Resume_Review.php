@@ -78,7 +78,7 @@
     <div class="booking">
         <span class="booking-text"><img src="images/logo/CV-Logo-48.png" alt="Resume Review">We are committed to helping job seekers to be noticed and stand out in the crowd.</span>
         <br>
-        <button>book now</button>
+        <a href="Resume-Review-Application.php"><button>book now</button></a>
     </div>
   
     <div class="sub-heading">
@@ -100,7 +100,7 @@
                 <!-- <i class="fas fa-globe fa-4x"></i> -->
                 <i class="fas fa-city fa-4x"></i>
                 <h4>STEP 2</h4>
-                <h3>Choose industry</h3>
+                <h3>Choose Industry</h3>
             </div>
             <div class="mid-page-grid__sec">
                 <i class="fas fa-cog fa-4x"></i>
@@ -110,7 +110,7 @@
             <div class="mid-page-grid__sec">
                 <i class="fas fa-users fa-4x"></i>
                 <h4>STEP 4</h4>
-                <h3>Get started!</h3>
+                <h3>Get Started</h3>
             </div>
         <!-- </div>   -->
 </div><!--class="mid-page-grid" end here -->

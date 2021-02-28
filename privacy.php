@@ -7,13 +7,14 @@
 <!-- ******************************************************************************************************************* -->
 
 	<!-- Page Body ***********************Start Here -->
-<div class="textPage">
+<div class="faq-container">
+	<h1>&nbsp</h1>
 	<h1>Privacy Policy</h1>
 	<br>
 	<p> Job Interview ltd(“Job Interview”) respects the privacy of our users. This privacy policy (the “Privacy Policy”) describes how we collect, use, store, and disclose information in connection with our Services and with our Website. By accessing our Website and/or using our Services, you agree to the provisions of this Privacy Policy and to our Terms. Unless otherwise defined herein, capitalized terms have the meanings defined in the Terms.</p>
 	<p>Please note that except as otherwise described below, this Privacy Policy does not apply to the processing of any information by third parties. For example, when users seek to apply to a job notice, the Services may redirect the user to an Employer’s career site to submit an application. Information collected through such a third-party site is not subject to this Privacy Policy, but is instead subject to the third-party’s privacy policy. Similarly, information that users submit directly to a Coach is not covered by this Privacy Policy.</p>
 
-	<div class="head2">Who Uses Our Services.</div>
+	<h3>Who Uses Our Services.</h3>
 	<p>We make our Services available to different types of users. As discussed further below, the information that the Services collect from and share about a user may depend on the user type. An individual may be one or more of these types of users depending on the nature of the individual’s interactions with our Services.</p>
 	<br>
 	<ul>
@@ -24,7 +25,7 @@
 		<li><strong>Admin: </strong>An entity that has a company profile on the Website or otherwise has services provided to it by Job Interview.</li>
 	</ul>
 
-	<div class="head2">Information We Collect</div>
+	<h3>Information We Collect</h3>
 	<p>We collect certain information about users, including Personal Information, in order to fulfill our lawful business interests, including in connection with the Services. “Personal Information” is any information related to an identified or identifiable person, including by reference to an identifier such as a name, location data, email address or phone number, or other factors specific to a person’s identity. We collect only the information necessary to fulfill our lawful business interests, and keep your information only as long as is necessary to fulfill those interests. We may combine Personal Information with other information, in which case we will treat the combined information as Personal Information. We also may combine information that we collect about you through the Services with additional information that we or third parties collect in other contexts—such as our communications with you via email or phone, or our customer service records. In those circumstances, we will treat the combined information in accordance with this Privacy Policy.</p>
 	<p>You can visit the Website and use some of the Services without providing any information, including Personal Information. However, if you choose not to provide Personal Information, we may not be able to provide you with full access to, or use of, the Services. As described below, we do automatically collect certain information when you use the Services. The Services also require you to provide Personal Information when you register as a Member, Coach, Author, or Employer. If you connect to the Website through LinkedIn or other third-party social media platforms, please also review the Social Media Information below.</p>
 	<br>
@@ -51,7 +52,7 @@
 	<br>
 	<p><strong>Information collected on third-party sites.</strong> In some cases, we use the mechanisms described above to track users when they navigate to and on third-party sites. For example, we may use cookies, pixels, scripts, or other tracking mechanisms to identify when a user of the Services goes to the website of one of our business partners and applies for a job. This information enables us, among other things, to analyze how many applicants for a specific position learned about it on Job Interview. Although we do not disclose Personal Information combined with such tracking data to our business partners, we may provide de-identified information and analytics as discussed in the section below titled “How We Share Information with Third Parties.”</p>
 
-	<div class="head2">How We Use Information</div>
+	<h3>How We Use Information</h3>
 	<p>We use the Personal Information that we collect about users, including Members, Coaches, Authors, and Employers, to:</p>
 	<br>
 	<ul>
@@ -70,7 +71,7 @@
 		<li>For any other business purpose permitted by law.</li>
 	</ul>
 	<br>
-	<div class="head2">How We Share Information with Third Parties</div>
+	<h3>How We Share Information with Third Parties</h3>
 	<p>Job Interview may share information with third parties for a variety of purposes. We share information with the following third parties and in the following ways:</p>
 	<br>
 	<p><strong>Affiliates: </strong> We may share information, including Personal Information, with our corporate affiliates for the purposes described in this Privacy Policy.</p>
@@ -89,14 +90,14 @@
 	<br>
 	<p><strong>De-identified or aggregated information: </strong> We also may compile and share de-identified or aggregated information about users of the Services, such as by publishing a report on trends in the usage of the Services or sharing aggregated information about historical and real-time trends in employment.</p>
 
-	<div class="head2">Third-Party Analytics and Targeted Advertising</div>
+	<h3>Third-Party Analytics and Targeted Advertising</h3>
 	<p>We partner with certain third parties to collect information to engage in analytics, auditing, research, and reporting. These third parties may use web logs, pixel tags, or similar online tracking mechanisms, and they may set and access cookies on your computer or other device. For example, as discussed above, Employers may use pixel tags or scripts supplied by Job Interview to track when users navigate to their websites and submit job applications.</p>
 	<p>Among other providers, the Services use <a href="https://www.google.com/analytics/learn/privacy.html" target="_blank">Google Analytics </a>to help collect and analyze certain information for the purposes discussed above. You may opt out of the use of cookies by Google Analytics here.</p>
 
-	<div class="head2">Security</div>
+	<h3>Security</h3>
 	<p>Job Interview uses physical, electronic, and procedural safeguards to protect your information against loss or unauthorized access, use, modification, or deletion. However, no security program is 100% secure, and thus we cannot guarantee the absolute security of your information.</p>
 
-	<div class="head2">Your Choices and Access to Information</div>
+	<h3>Your Choices and Access to Information</h3>
 	<p>Depending on your location, including the European Economic Area and the United Kingdom, and where applicable law requires, you may have the following rights with respect to your Personal Information:</p>
 	<br>
 	<ul>
@@ -111,22 +112,22 @@
 	<p>If you no longer want to receive marketing communications from Job Interview, please follow the “unsubscribe” instructions that are included at the bottom of each message. Please note that if you unsubscribe from our marketing communications, you will still receive administrative messages.</p>
 	<p>Due to technical reasons there may be a delay in accessing or deleting your Personal Information from our systems if you request it. We also will retain Personal Information in order to comply with the law, protect our and others’ rights, resolve disputes or enforce our legal terms or policies, to the extent permitted under applicable law.</p>
 
-	<div class="head2">Transfer of Information to the United States</div>
+	<h3>Transfer of Information to the United States</h3>
 	<p>The information that we collect through or in connection with the Services is transferred to and processed in the United States for the purposes described above. Job Interview also may subcontract the processing of your data to, or otherwise share your data with, affiliates or third parties in the United States or countries other than your country of residence. The data-protection laws in these countries may be different from, and less stringent than, those in your country of residence. By accepting this Privacy Policy, using the Services, or providing information to us, you expressly consent to such transfer and processing.</p>
 
-	<div class="head2">Children’s Privacy</div>
+	<h3>Children’s Privacy</h3>
 	<p>The Services are not directed to children under the age of 16, and Job Interview does not knowingly collect Personal Information or other Information from anyone under the age of 16. If you are under age 16 you may not, under any circumstances or for any reason, use the Services.</p>
 
-	<div class="head2">Changes to this Privacy Policy</div>
+	<h3>Changes to this Privacy Policy</h3>
 	<p>We may update or modify this Privacy Policy from time to time. We will give you notice of the changes by posting an updated version online, updating the “Revised” date above, or, in the event of a material change, by emailing you at an email address you have provided. Changes to this Privacy Policy will be effective as of the date we post them or otherwise notify you of them, unless we specify a different effective date when we make a particular change. Your continued use of the Services will constitute your acceptance of the changes. If you do not agree to a change, you must stop using the Services.</p>
 
-	<div class="head2">Third-Party Links, Websites, and Apps</div>
+	<h3>Third-Party Links, Websites, and Apps</h3>
 	<p>The Services may contain links to and from the websites or apps of other third parties. If you follow a link to any of these websites or apps, please note that these websites and apps, and any services that may be accessible through them, have their own privacy policies. We are not responsible for the privacy practices of other websites or apps. We encourage our users to be aware when they leave the Website and to read the privacy policies applicable to such third-party websites and apps. This Privacy Policy applies solely to information collected in connection with the Services.</p>
 
-	<div class="head2">Sensitive Information</div>
+	<h3>Sensitive Information</h3>
 	<p>We do not knowingly collect, and we ask that you not send us, and you not disclose, any sensitive Personal Information on or through the Services. Such information includes, but is not limited to, social security numbers, financial account information (except for payment information as required), and information related to or revealing racial or ethnic origin, political opinions, religion or other beliefs, health, criminal background, or trade union membership.</p>
 
-	<div class="head2">Contact Information; Questions or Comments</div>
+	<h3>Contact Information; Questions or Comments</h3>
 	<p>If you have any questions or comments regarding our privacy practices or this Privacy Policy, please send us an email to privacy@job-interview.co.uk or contact us by mail at:</p>
 	<pre>
 Attn: Legal
@@ -146,6 +147,7 @@ Attn: Legal
 
 
 <!--********************************** F O O T E R ************************************-->
+<button ><a href="#top" id="topBtn"> <img src="images/logo/up-circle-hover.png"></a></button>
 
 <?php
     require "footer.php"

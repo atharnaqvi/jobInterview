@@ -82,7 +82,7 @@
                 <!-- <i class="fas fa-globe fa-4x"></i> -->
                 <i class="fas fa-city fa-4x"></i>
                 <h4>STEP 2</h4>
-                <h3>Choose industry</h3>
+                <h3>Choose Industry</h3>
             </div>
             <div class="mid-page-grid__sec">
                 <i class="fas fa-cog fa-4x"></i>
@@ -92,7 +92,7 @@
             <div class="mid-page-grid__sec">
                 <i class="fas fa-users fa-4x"></i>
                 <h4>STEP 4</h4>
-                <h3>Get started!</h3>
+                <h3>Get Started</h3>
             </div>
         <!-- </div>   -->
 </div><!--class="mid-page-grid" end here -->
@@ -106,7 +106,7 @@
 <div class="sub-heading">
     <h2>Not Sure What You Need?</h2>
     <span class="borderBelow"></span>
-    <a href="#"><button class="btn">Help me in my career !</button></a><br><br>
+    <a href="contact.php"><button class="btn">Help me !!!</button></a><br><br>
 </div>
 
 

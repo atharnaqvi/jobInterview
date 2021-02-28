@@ -30,7 +30,7 @@
             </a>
     </li>
 	<li class="menu-nav__item dropdown">
-			<a href="#"  class="menu-nav__link">
+			<a href="services.php"  class="menu-nav__link">
                 Services
             </a>
 	 <ul class="menu-area">
@@ -39,19 +39,18 @@
 		    <img src="images/job-interview2.jpg" alt="Job Interview">
 		</ul>
 		<ul>
-			<h4><a href="services.php">Our Top Services</a></h4>
+			<!-- <h4><a href="services.php">Our Top Services</a></h4> -->
 			<li><a href="Resume_Review.php">Resume Review  </a></li>
-			<li><a href="career-advice.php">30 Min Career Advice </a></li>
+			<li><a href="career-advice.php">Career Advice </a></li>
 			<li><a href="jobs-search.php">Jobs Search Strategy </a></li>
 			<li><a href="mock-interview.php">Mock Interview </a></li>
 		</ul>
 		<ul>
-			<h4>How we work?</h4>
-			<li><a href="#">Process Map</a></li>
-			<li><a href="#">What we do and what we don't</a></li>
-			<li><a href="#">Why us?</a></li>
-			<li><a href="#">Who are our Interviewers?</a></li>
-			<li><a href="#">Why not talk to us?</a></li>
+			<!-- <h4>How we work?</h4> -->
+			<li><a href="about.php">About us</a></li>
+			<li><a href="contact.php">Contact us</a></li>
+			<li><a href="faq.php">FAQ</a></li>
+			
 		</ul>
 		<!-- <ul class="cv">
 			
@@ -92,11 +91,11 @@
 						
 	 </ul>
 	</li>
-	<li class="menu-nav__item">
+	<!-- <li class="menu-nav__item">
         <a href="#" class="menu-nav__link">
             Employer
         </a>
-    </li>
+    </li> -->
 	<li class="menu-nav__item">
         <a href="contact.php" class="menu-nav__link">
             Contact

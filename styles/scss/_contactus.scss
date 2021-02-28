@@ -145,7 +145,6 @@
 
     .webFormNew{
         display: block;
-        // background: $chinese-silver;
         width: 600px;
         margin-right: 40px;
         padding: 5px 10px;
@@ -153,7 +152,6 @@
         border-radius: 10px;
         flex-grow: 0;
         cursor: auto;
-        // box-shadow: 1px 1px 3px 1px;
 
         form{
             // width: 100vw;
@@ -168,35 +166,43 @@
             input {
                 width: 530px;
                 height: 50px;
-				border: none;
 				font-size: 18px;
 				margin: 20px 20px;
-				padding: 0 10px;
-				border-radius: 5px;
-				box-shadow: 0.2px 0.2px 2px 1px;
-				background-color: map-get($background-color, lighter-gray);
+				padding: 0 20px;
+				border-radius: 10px;
+				border: 0;
+				border-bottom: 1px solid $col-LightGray;
 			}
 			select{
 				width: 530px;
                 height: 50px;
-				border: none;
+				border: 0;
+				border-bottom: 1px solid $col-LightGray;
+				border-radius: 10px;
 				font-size: 18px;
 				margin: 20px 20px;
-				padding: 0 10px;
-				// color: $col-gray;
-				box-shadow: 0.2px 0.2px 2px 1px;
-				background-color: map-get($background-color, lighter-gray);
+				padding: 0 20px;
+				color: $col-gray;
+			}
+			#email{
+				margin-bottom: 20px;
+				border-bottom: 1px solid $col-LightGray;
+				border-radius: 10px;
+				padding: 0 20px;
+				
 			}
 
 			textarea{
 				width: 530px;
                 height: 50px;
-				border: none;
+				border: 0;
+				border-bottom: 1px solid $col-LightGray;
+				border-radius: 10px;
 				font-size: 20px;
 				margin: 20px 20px;
-				padding: 10px 20px;
-				box-shadow: 0.2px 0.2px 2px 1px;
-				background-color: map-get($background-color, lighter-gray);
+				padding: 0px 20px;
+				overflow: auto;
+				resize: none;
 			}
 
 

@@ -7,6 +7,7 @@
 @import './gridBizz';
 @import './footer';
 @import './contactPage';
+@import './global';
 
 
 
@@ -60,8 +61,22 @@ main {
 .grayBackground {
     background: #ECE9E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     }
 
+/*Floating Back-To-Top Button*/
+#topBtn {
+    position: fixed;
+    bottom: 10px;
+    // right: 18.5%;
+    left: 85%;
+    padding: 20px;
+    background: none;
+    border: none;
+    z-index: 1;
+    // border-radius: 4px;
+
+}
+/*On Hover Color Change*/
 

@@ -22,7 +22,7 @@
 
         <div class="titleItems">	
 			<p class="titlePAbout">Interviews are taken by professional interviewers from industry. Interviews will be taken to accommodate the job you are applying for. A detailed feedback will be given with chances of your hiring and suggestion for further improvement.</p>
-			<button class="titleBtnAbout"><a href="mockInterview.php">Get Started</a></button>
+			<!-- <button class="titleBtnAbout"><a href="mockInterview.php">Get Started</a></button> -->
 		</div>
       
     </div>

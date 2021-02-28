@@ -500,6 +500,7 @@
 
 .titleContainer {
   /*index.php, it.php*/
+  width: 100%;
   background: url("../../images/img-home.jpg") no-repeat center;
   height: 650px;
   background-color: #cccccc;
@@ -1014,38 +1015,44 @@
 .container_3 .webFormNew form input {
   width: 530px;
   height: 50px;
-  border: none;
   font-size: 18px;
   margin: 20px 20px;
-  padding: 0 10px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
-          box-shadow: 0.2px 0.2px 2px 1px;
-  background-color: #f7f7f7;
+  padding: 0 20px;
+  border-radius: 10px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
 }
 
 .container_3 .webFormNew form select {
   width: 530px;
   height: 50px;
-  border: none;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
   font-size: 18px;
   margin: 20px 20px;
-  padding: 0 10px;
-  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
-          box-shadow: 0.2px 0.2px 2px 1px;
-  background-color: #f7f7f7;
+  padding: 0 20px;
+  color: gray;
+}
+
+.container_3 .webFormNew form #email {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+  padding: 0 20px;
 }
 
 .container_3 .webFormNew form textarea {
   width: 530px;
   height: 50px;
-  border: none;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
   font-size: 20px;
   margin: 20px 20px;
-  padding: 10px 20px;
-  -webkit-box-shadow: 0.2px 0.2px 2px 1px;
-          box-shadow: 0.2px 0.2px 2px 1px;
-  background-color: #f7f7f7;
+  padding: 0px 20px;
+  overflow: auto;
+  resize: none;
 }
 
 .container_3 .webFormNew form .form-service-feild {
@@ -1310,7 +1317,7 @@
   font-size: 20px;
 }
 
-#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam, #Secuirty, #SEO, #SoftwareDev, #Testing, #WebDev, #ITform {
+#AppDev, #AppInt, #Broadcast, #CloudServices, #Data, #eCommerce, #ITSupport, #JavascriptDev, #NetworkEng, #ProjectTeam, #Secuirty, #SEO, #SoftwareDev, #Testing, #WebDev, #ITform, #ITtopic, #nextBtn, #position, #package {
   display: none;
 }
 
@@ -1341,24 +1348,163 @@
 }
 
 .section3Item {
-  width: 350px;
-  max-height: 700px;
+  width: 600px;
+  height: auto;
 }
 
 .section3Item h2 {
   text-transform: uppercase;
-  color: #0297A5;
-  font-size: 24px;
-  color: #c5c519;
-  padding-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: .8px;
+  color: gray;
+  padding: 20px 0;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
-.section1Item a.links {
-  font-style: italic;
-  font-size: 14px;
+.section3Item form {
+  width: 550px;
+  position: auto;
+}
+
+.section3Item form select {
+  height: 60px;
+  line-height: 50px;
+  font-size: 18px;
+  padding: 5px 0px 5px 15px;
+  border-radius: 10px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  width: 100%;
+  outline: none;
+  background: transparent;
+  color: #b1b1b1;
+}
+
+.section3Item form option {
+  color: #000;
+}
+
+.section3Item form option:first-child {
+  color: #b1b1b1;
+}
+
+.section3Item form input {
+  height: 60px;
+  line-height: 50px;
+  font-size: 18px;
+  padding: 5px 0px 5px 15px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.section3Item form .inputText {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.section3Item form .topic {
+  color: #b1b1b1;
+}
+
+.section3Item form #email {
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+}
+
+.section3Item form label {
+  line-height: 50px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+.section3Item form .uploadFile {
+  border-radius: 10px;
+  border: 0;
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.section3Item form .submitBtn {
+  font-size: 32px;
+}
+
+.section3Item form .dateTime {
+  width: 90%;
+  border-radius: 10px;
+  margin: 5px 10px 10px 10px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+}
+
+.section3Item form ::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+.section3Item form :-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.section3Item form ::-ms-input-placeholder {
+  color: #b1b1b1;
+}
+
+.section3Item form ::placeholder {
+  color: #b1b1b1;
+}
+
+.section3Item form .btn-box {
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.section3Item form button {
+  width: 110px;
+  height: 35px;
+  margin: 0 10px;
+  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background: linear-gradient(to right, #11998e, #38ef7d);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section3Item form textarea {
+  line-height: 50px;
+  font-size: 18px;
+  padding: 5px 0px 5px 15px;
+  border: 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-radius: 10px;
+  width: 100%;
+  overflow: auto;
+  resize: none;
+}
+
+.section1Item a {
+  font-size: 18px;
   text-decoration: none;
   padding: 30px 0px 30px 0px;
   line-height: 20px;
+  color: #444242;
+}
+
+.section1Item a:hover {
+  color: #03b803;
+  text-decoration: underline;
 }
 
 .section1Item h2 {
@@ -1374,6 +1520,7 @@
   padding: 10px 2px 0px 10px;
   list-style: none;
   width: 325px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -1484,6 +1631,9 @@
     margin: 20px auto;
     font-style: 30px;
   }
+  .sub-heading h2 {
+    text-transform: uppercase;
+  }
   .sub-heading button {
     margin: 20px auto;
     -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -1573,6 +1723,9 @@
     text-align: center;
     margin-top: 25px;
   }
+  .sub-heading h2 {
+    text-transform: uppercase;
+  }
   .sub-heading button {
     margin: 20px auto;
     -webkit-box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
@@ -1653,6 +1806,14 @@
     font-weight: bold;
     text-transform: uppercase;
   }
+  .faq-heading {
+    padding: 25px 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: -webkit-sticky;
+    position: sticky;
+  }
   .booking {
     margin: 0 auto;
     text-align: center;
@@ -1724,6 +1885,7 @@
     font-weight: 600;
     margin: 20px 0px;
     text-align: center;
+    text-transform: uppercase;
   }
   .sub-heading button {
     margin: 0 45%;
@@ -1908,6 +2070,71 @@
   }
 }
 
+.faq-container {
+  width: 70%;
+  margin: 0 auto;
+  z-index: 0;
+  padding: 30px 0;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.faq-container h1 {
+  font-size: 38px;
+  padding: 20px 0 10px 0;
+  color: #0808dd;
+  font-weight: bold;
+}
+
+.faq-container .faq {
+  background-color: #f8f4f4;
+  border: none;
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  margin: 10px 0;
+  width: 90%;
+}
+
+.faq-container h3 {
+  font-size: 28px;
+  padding: 20px 0 5px 10px;
+  color: #364d7a;
+  font-weight: bold;
+}
+
+.faq-container li {
+  list-style: square;
+  margin-left: 45px;
+  padding: 8px 0 8px 5px;
+  cursor: pointer;
+  line-height: 26px;
+  color: #364d7a;
+  font-size: 24px;
+}
+
+.faq-container a li:hover {
+  color: #e58e26;
+  padding-left: 15px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.faq-container a li:visited {
+  color: #e58e26;
+}
+
+.faq-container p {
+  padding: 25px 25px;
+  text-align: justify;
+  line-height: 28px;
+  font-size: 22px;
+}
+
+.faq-container p a {
+  color: #0808dd;
+  text-decoration: underline;
+}
+
 .footer {
   margin-top: 60px;
   overflow: hidden;
@@ -1982,6 +2209,21 @@
   padding-top: 10px;
 }
 
+.submitBtn {
+  background: green;
+  border-radius: 10px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.submitBtn:hover {
+  color: yellow;
+}
+
+*, input {
+  outline: none;
+}
+
 body {
   color: black;
   background: white;
@@ -2031,8 +2273,21 @@ main .social-icons a:hover {
   background: #ECE9E6;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#ECE9E6));
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#ECE9E6));
+  background: linear-gradient(to top, #FFFFFF, #ECE9E6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/*Floating Back-To-Top Button*/
+#topBtn {
+  position: fixed;
+  bottom: 10px;
+  left: 85%;
+  padding: 20px;
+  background: none;
+  border: none;
+  z-index: 1;
+}
+
+/*On Hover Color Change*/
 /*# sourceMappingURL=main.css.map */

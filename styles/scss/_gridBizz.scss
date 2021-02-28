@@ -29,6 +29,9 @@
         text-align: center;
         margin: 20px auto;
         font-style: 30px;
+        h2{
+            text-transform: uppercase;
+        }
         
         button{
             margin: 20px auto;
@@ -118,6 +121,9 @@
         font-style: 30px;
         text-align: center;
         margin-top: 25px;
+        h2{
+            text-transform: uppercase;
+        }
 
         button{
             margin: 20px auto;
@@ -199,6 +205,13 @@
            text-transform: uppercase;
        }
    }
+   .faq-heading{
+       padding: 25px 0;
+       text-align: center;
+       font-weight: bold;
+       text-transform: uppercase;
+       position: sticky;
+   }
 
    .booking{
        margin: 0 auto;
@@ -275,7 +288,7 @@
             font-weight: 600;
             margin: 20px 0px;
             text-align: center;
-            
+            text-transform: uppercase;
             
         }
         button{
@@ -436,3 +449,63 @@
             }
     }
     
+
+//FAQ page styles
+.faq-container{
+    width: 70%;
+    margin: 0 auto;
+    z-index: 0;
+    padding: 30px 0;
+    font-size: 18px;
+    line-height: 22px;
+    h1{
+        font-size: 38px;
+        padding: 20px 0 10px 0;
+        color: $col-blue;
+        font-weight: bold;
+    }
+    .faq{
+        background-color: $col-LighterGray;
+        border: none;
+        border-bottom-right-radius: 35px;
+        border-top-right-radius: 35px;
+        margin: 10px 0;
+        width: 90%;
+    }
+    h3{
+        font-size: 28px;
+        padding: 20px 0 5px 10px;
+        color: $col-link;
+        font-weight: bold;
+    }
+    li{
+        list-style: square;
+        margin-left: 45px;
+        padding: 8px 0 8px 5px;
+        cursor: pointer;
+        line-height: 26px;
+        color: $col-link;
+        font-size: 24px;
+       
+        
+    } 
+    a li:hover{
+            color: $col-orange;
+            padding-left:  15px;
+            @include transition-ease;
+        }
+
+    a li:visited{
+        color: $col-orange;
+    }
+    p{
+        padding: 25px 25px;
+        text-align: justify;
+        line-height: 28px;
+        font-size: 22px;
+        a{
+            color: $col-blue;
+            text-decoration: underline;
+        }
+    }
+}

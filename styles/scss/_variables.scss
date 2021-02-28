@@ -12,7 +12,17 @@ $font-size: (
     "sm": 14px,
     "md": 20px,
     "lrg": 26px,
-    "big": 32px
+    "big": 32px,
+    "h2Heading": 28px,
+    "h1Heading": 32px,
+    "selectOption": 18px,
+    "submit": 32px
+);
+
+$font-Col: (
+    "h1Heading": gray,
+    "h2Heading": orange
+    
 );
 
 $text-color:  #fff;
@@ -35,6 +45,10 @@ $chinese-silver: #cccccc;
 $col-orange: #e58e26;
 $col-submit: green;
 $col-hover: rgb(3, 184, 3); 
+$col-LighterGray: rgb(248, 244, 244);
+$col-link: rgb(54, 77, 122);
+
+$btn-background: linear-gradient(to right, #11998e, #38ef7d);
 
 $font-size-small: 1rem;
 $font-size-medium: 2rem;

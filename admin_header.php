@@ -39,18 +39,16 @@
                 Admin
             </a>
 	<ul class="menu-area">
-	    <ul class="image-menu-area">
+	    <!-- <ul class="image-menu-area">
 		    <img src="images/job-interview1.jpg" alt="Job Interview">
-						</ul>
+						</ul> -->
 						<ul>
-							<h4>Select Industry</h4>
-							<li><a href="AllMessages.php">All Messages  </a></li>
-							<li><a href="AllUsers.php">All Users </a></li>
-							<li><a href="#">Advertising </a></li>
-							<li><a href="#">Banking </a></li>
-							<li><a href="#">Call Centre </a></li>
+							<h4>Main</h4>
+							<li><a href="admin_AllMessages.php">All Messages  </a></li>
+							<li><a href="admin_AllUsers.php">All Users </a></li>
+							<li><a href="admin_all_cases.php">All Cases </a></li>
 						</ul>
-						<ul class="cv">
+						<!-- <ul class="cv">
 							<li><a href="#">Finance</a></li>
 							<li><a href="#">Creative </a></li>
 							<li><a href="#">Digital </a></li>
@@ -58,39 +56,7 @@
 							<li><a href="#">Engineering </a></li>
 							<li><a href="#">Finance </a></li>
 						</ul>
-						<ul id="interview">
-							<li><a href="#">Healthcare  </a></li>
-							<li><a href="#">Hospitality </a></li>
-							<li><a href="#">HR </a></li>
-							<li><a href="#">Insurance </a></li>
-							<li><a href="it.php">IT </a></li>
-							<li><a href="#">Legal </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Logistics </a></li>
-							<li><a href="#">Management</a></li>
-							<li><a href="#">Marketing  </a></li>
-							<li><a href="#">Manufacturing </a></li>
-							<li><a href="#">Media </a></li>
-							<li><a href="#">Nursing </a></li>
-							<li><a href="#">Property </a></li>
-						</ul>
-						<ul id="interview">
-							<li><a href="#">Sales </a></li>
-							<li><a href="#">Secretarial </a></li>
-							<li><a href="#">Senior Appointments </a></li>
-							<li><a href="#">Telecoms </a></li>
-							<li><a href="#">Travel and Tourism  </a></li>
-							<li><a href="#">Retail </a></li>							
-						</ul>
-						<ul id="interview">
-							<h4>How we work?</h4>
-							<li><a href="#">Process Map</a></li>
-							<li><a href="#">What we do and what we don't</a></li>
-							<li><a href="#">Why us?</a></li>
-							<li><a href="#">Who are our Interviewers?</a></li>
-							<li><a href="#">Why not talk to us?</a></li>
-						</ul>
+						
 						
 					</ul>
 				</li>

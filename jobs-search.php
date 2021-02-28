@@ -76,9 +76,9 @@
 		</div>
     </div>
     <div class="booking">
-        <span class="booking-text"><img src="images/logo/CV-Logo-48.png" alt="Career Advice">Our  industry expert coaches guide you step by step to prepare for the job industry of your choice. They will give you an action plan to work towards your dream job.</span>
+        <span class="booking-text"><img src="images/logo/CV-Logo-48.png" alt="Career Advice">Our  industry experts will guide you step by step to prepare for the job industry of your choice. They will give you an action plan to work towards your dream job.</span>
         <br>
-        <button>book now</button>
+        <a href="jobs-search-bookNow.php"><button>book now</button></a>
     </div>
   
     <div class="sub-heading">
@@ -100,17 +100,17 @@
                 <!-- <i class="fas fa-globe fa-4x"></i> -->
                 <i class="fas fa-city fa-4x"></i>
                 <h4>STEP 2</h4>
-                <h3>Choose industry</h3>
+                <h3>Choose Industry</h3>
             </div>
             <div class="mid-page-grid__sec">
                 <i class="fas fa-cog fa-4x"></i>
                 <h4>STEP 3</h4>
-                <h3>Decide on time</h3>
+                <h3>Decide on Time</h3>
             </div>
             <div class="mid-page-grid__sec">
                 <i class="fas fa-users fa-4x"></i>
                 <h4>STEP 4</h4>
-                <h3>Get started!</h3>
+                <h3>Get Started</h3>
             </div>
         <!-- </div>   -->
 </div><!--class="mid-page-grid" end here -->
